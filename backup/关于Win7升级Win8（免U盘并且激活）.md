@@ -5,7 +5,7 @@
 ### 直接解压 解压！！！
 就可以看到setup程序
 直接打开就能开始升级系统
-升级后显示windwos未激活
+升级后显示windwos未激活!!?
 
 [Windows通用（7 8 8.1 10 11）.zip](https://github.com/user-attachments/files/19722513/Windows.7.8.8.1.10.11.zip)
 
