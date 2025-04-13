@@ -21,8 +21,5 @@
     "script":"<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>",
     "indexScript":"<script src='https://blog.liyifan.xyz/assets/NumPagination.js'></script>",
     "allHead":"<script src='https://blog.liyifan.xyz/assets/GmeekBSZ.js'></script><script src='https://blog.liyifan.xyz/assets/yifantheme.js'></script><script src='https://blog.liyifan.xyz/assets/live2d.js'></script>",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script><script src='https://blog.sigechaisjie.top/assets/esay_copy.js'></script>",
     "GMEEK_VERSION":"last"
 }
