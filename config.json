@@ -16,7 +16,7 @@
     "themeMode":"fix",
     "dayTheme":"light_tritanopia",
     "nightTheme":"github-light",
-    "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
+    "bottomText":"❤️页面设计来自 LIYIFAN❤️",
     "showPostSource":0,
     "script":"<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>",
     "indexScript":"<script src='https://blog.liyifan.xyz/assets/NumPagination.js'></script>",
@@ -24,4 +24,6 @@
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "script":"<script src='https://blog.liyifan.xyz/assets/copy.js'></script>",
     "GMEEK_VERSION":"last"
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+
 }
