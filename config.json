@@ -15,7 +15,7 @@
     "i18n":"CN",
     "themeMode":"fix",
     "dayTheme":"dark",
-    "nightTheme":"github-dark",
+    "nightTheme":"github-light",
     "bottomText":"❤️ 页面设计来自LIYIFAN 请V我50！❤️",
     "showPostSource":0,
     "script":"<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>",
