@@ -1,6 +1,6 @@
 ### 修改为下面的代码到你的yaml中（就是最上面那个文件夹里的） 就是更新到22.4 
 
-> name: build Gmeek
+name: build Gmeek
 
 on:
   workflow_dispatch:
