@@ -6,7 +6,9 @@
 我整理了一些必要的插件
 _下载地址[https://wwuv.lanzouw.com/iFFYN2tgnsfe_
 2](url)
-注意，如果你的 Kindle 固件是 5.16.3 或更新版本，需要使用支持 HF（hard float）的插件。
+> [!NOTE]
+> 注意，如果你的 Kindle 固件是 5.16.3 或更新版本，需要使用支持 HF（hard float）的插件。
+
 
 目录
 一、MobileRead Package Installer (MRPI) — 插件安装器（必须）
@@ -38,7 +40,8 @@ MobileRead Package Installer 是一款 KUAL 插件。因为现在 Kindle 固件�
 把文件夹内的 extensions 和 mrpackages 拷贝到 Kindle 的根目录。
 注意，如果根目录已有 extensions 这个文件夹，可以只把解压得到的 extensions 文件夹中的内容拷贝到 Kindle 根目录原有的 extensions 文件夹内，以避免原文件夹内的其它文件被删除。
 
-另外，值得一提的是，如果你需要安装多个插件（比如本文之后所介绍的那些插件），不必重复每一款插件的安装步骤，只需要将所有 bin 文件拷贝到 mrpackage 目录，然后通过 ;log mrpi 命令一次性安装它们。这样，每当需要重新安装插件时，可以节省大量时间。
+> [!TIP]
+> 另外，值得一提的是，如果你需要安装多个插件（比如本文之后所介绍的那些插件），不必重复每一款插件的安装步骤，只需要将所有 bin 文件拷贝到 mrpackage 目录，然后通过 ;log mrpi 命令一次性安装它们。这样，每当需要重新安装插件时，可以节省大量时间。
 
 特别提示：如果你在安装完 MRPI 后使用命令 ;log mrpi 安装其它插件时看到“MRPI is not installed”的提示，极有可能是因为某些解压缩软件（如 WinZip）解压 .xz 格式的 MRPI 插件压缩包时破坏了 MRPI 相关文件导致的。为避免此问题，如果你使用的是 Windows 系统，请使用 7-zip 解压，如果你使用的是 macOS 系统，请使用 Keka 解压（或命令行工具 tar 解压）。详见小伙伴“就爱茄子”的留言及相关讨论。
 
