@@ -1,6 +1,5 @@
 ### 修改为下面的代码到你的yaml中（就是最上面那个文件夹里的） 就是更新到22.4 
- 
-`name: build Gmeek
+name:_** build Gmeek
 
 on:
   workflow_dispatch:
@@ -88,8 +87,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4`
-
+        uses: actions/deploy-pages@v4
 ![Image](https://github.com/user-attachments/assets/631890cf-a242-405b-945f-27e159e0cb0e)
 希望能够帮到你 
 > [!TIP]
