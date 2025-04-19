@@ -1,5 +1,101 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Sat, 19 Apr 2025 05:28:02 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>Gmeek强调信息</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</link><description>Github的语法里面有5中警报强调信息，分别是NOTE TIP IMPORTANT WARNING CAUTION 。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</guid><pubDate>Sat, 19 Apr 2025 05:27:42 +0000</pubDate></item><item><title>Kindle的越狱以及插件!!</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Kindle-de-yue-yu-yi-ji-cha-jian-%21%21.html</link><description>越狱方法
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Sat, 19 Apr 2025 05:56:51 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>Gmeek 构建失败？自己更新requipment？修改yaml即可</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Gmeek%20-gou-jian-shi-bai-%EF%BC%9F-zi-ji-geng-xin-requipment%EF%BC%9F-xiu-gai-yaml-ji-ke.html</link><description>### 修改为下面的代码到你的yaml中（就是最上面那个文件夹里的） 就是更新到22.4 
+ 
+`name: build Gmeek
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited]
+  schedule:
+    - cron: '0 16 * * *'
+    
+jobs:
+  build:
+    name: Generate blog
+    runs-on: ubuntu-22.04  # 修改为 22.04
+    if: ${{ github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule' }}
+    permissions: write-all
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Get config.json
+        run: |
+          echo '====== check config.josn file ======'
+          cat config.json
+          echo '====== check config.josn end  ======'
+          sudo apt-get install jq
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+
+      - name: Clone source code
+        run: |
+          GMEEK_VERSION=$(jq -r '.GMEEK_VERSION' config.json)
+          git clone https://github.com/Meekdai/Gmeek.git /opt/Gmeek;
+          cd /opt/Gmeek/
+          lastTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          if [ $GMEEK_VERSION == 'last' ]; then git checkout $lastTag; else git checkout $GMEEK_VERSION; fi;
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r /opt/Gmeek/requirements.txt
+
+      - name: Generate new html
+        run: |
+          cp -r ./* /opt/Gmeek/
+          cd /opt/Gmeek/
+          python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          cp -a /opt/Gmeek/docs ${{ github.workspace }} 
+          cp -a /opt/Gmeek/backup ${{ github.workspace }} 
+          cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
+          
+      - name: update html
+        run: |
+          git config --local user.email '$(jq -r '.email' config.json)'
+          git config --local user.name '${{ github.repository_owner }}'
+          git add .
+          git commit -a -m '🎉auto update by Gmeek action' || echo 'nothing to commit'
+          git push || echo 'nothing to push'
+          sleep 3
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/.'
+          
+  deploy:
+    name: Deploy blog
+    runs-on: ubuntu-22.04  # 修改为 22.04
+    needs: build
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    concurrency:
+      group: 'pages'
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4`
+
+![Image](https://github.com/user-attachments/assets/631890cf-a242-405b-945f-27e159e0cb0e)
+希望能够帮到你 
+&gt; [!TIP]
+&gt; 别输错地方了 别输入任何额外字符 
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Gmeek%20-gou-jian-shi-bai-%EF%BC%9F-zi-ji-geng-xin-requipment%EF%BC%9F-xiu-gai-yaml-ji-ke.html</guid><pubDate>Sat, 19 Apr 2025 05:56:32 +0000</pubDate></item><item><title>Gmeek强调信息</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</link><description>Github的语法里面有5中警报强调信息，分别是NOTE TIP IMPORTANT WARNING CAUTION 。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</guid><pubDate>Sat, 19 Apr 2025 05:27:42 +0000</pubDate></item><item><title>Kindle的越狱以及插件!!</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Kindle-de-yue-yu-yi-ji-cha-jian-%21%21.html</link><description>越狱方法
 [https://www.bilibili.com/video/BV1VZrLYyEfX/?spm_id_from=333.337.search-card.all.click&amp;vd_source=51ac3392cf2fd955a04a1bc24fd998e0](url)
 这个要求我们关注公众号获得插件
 我们当然是拒绝啦
