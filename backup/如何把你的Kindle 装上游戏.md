@@ -1,3 +1,5 @@
+[插件github下载](https://github.com/user-attachments/files/20001993/2022.5.19_kindle.zip)
+
 前提条件
 设备已越狱
 
