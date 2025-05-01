@@ -1,9 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Thu, 01 May 2025 16:27:06 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>DX 2024国服 SDGB 1.41 hdd 下载 123网盘 火速下载 没了我会补上</title><link>https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</link><description>这可能是我blog里分享的最贵的东西了（在闲鱼买的 图一乐）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Thu, 01 May 2025 19:23:37 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>DX 2024国服 SDGB 1.41 hdd 下载 123网盘 火速下载 没了我会补上</title><link>https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</link><description>这可能是我blog里分享的最贵的东西了（在闲鱼买的 图一乐 你要是误打误撞看见了我也没办法）
 链接：https://www.123912.com/s/2LjLVv-tZewh
+下载完最大的文件 解压在D盘 没问题的 不是病毒
 
 内置segatools 应该可以直接启动吧？ 不行的话自己解决 我也不知道、
-可以参考一下这里面的教程？虽然我不推荐就是了 太老了这教程 https://www.94joy.cn/maimai/267/。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</guid><pubDate>Thu, 01 May 2025 04:37:58 +0000</pubDate></item><item><title>如何把你的Kindle 装上游戏</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ru-he-ba-ni-de-Kindle%20-zhuang-shang-you-xi.html</link><description>[插件github下载](https://github.com/user-attachments/files/20001993/2022.5.19_kindle.zip)
+可以参考一下这里面的教程？虽然我不推荐就是了 太老了这教程 https://www.94joy.cn/maimai/267/
+难点:1.卧槽 我打开游戏就两串代码也没悬浮窗咋回事
+         可能你的文件不在C/D盘 这是必须的
+难点2:如果你进入游戏的时候 显示net坏 那么就是没有绿网 
+ 如下路径C:\Windows\System32\drivers\etc
+找到 hosts文件 记事本打开 把里面东西全删了 改成下面这些
+127.0.0.1 id.twitch.tv #S302
+129.28.248.89 wq.sys-all.cn
+81.71.193.236 ai.sys-all.cn
+42.193.74.107 wi.sys-all.cn
+81.70.119.195 at.sys-all.cn
+然后保存 再打开你的start.bat
+难点 3：我用game.bat没反应 start.bat 打不开怎么办？
+可能有这些原因  你的windows10时区不是中国 你没有以管理员运行start.bat 你的包被偷工减料了
+网络问题无解 版本更新 slim.ver 缺失........反正你按照我这个顺序逐一排查就对了
+难点4.扫码登录 我没有摄像头怎么登录啊   
+
+
+
+    
+
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</guid><pubDate>Thu, 01 May 2025 04:37:58 +0000</pubDate></item><item><title>如何把你的Kindle 装上游戏</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ru-he-ba-ni-de-Kindle%20-zhuang-shang-you-xi.html</link><description>[插件github下载](https://github.com/user-attachments/files/20001993/2022.5.19_kindle.zip)
 
 前提条件
 设备已越狱
