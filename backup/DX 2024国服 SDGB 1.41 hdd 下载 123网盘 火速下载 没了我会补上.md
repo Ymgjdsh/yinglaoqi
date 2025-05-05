@@ -99,7 +99,7 @@ https://www.94joy.cn/maimai/267/
 内置segatools 应该可以直接启动吧？ 不行的话自己解决 我也不知道、
 可以参考一下这里面的教程？虽然我不推荐就是了 太老了这教程 https://www.94joy.cn/maimai/267/
 难点:1.卧槽 我打开游戏就两串代码也没悬浮窗咋回事
-         可能你的文件不在C/D盘 这是必须的
+         可能你的文件不在C/D盘 这是必须的 而且启动程序是:\Ver.CN1.41-H\Ver.CN1.41-D\Package\start.exe 不是外面那个game.exe!!!
 难点2:如果你进入游戏的时候 显示net坏 那么就是没有绿网 
  如下路径C:\Windows\System32\drivers\etc
 找到 hosts文件 记事本打开 把里面东西全删了 改成下面这些
