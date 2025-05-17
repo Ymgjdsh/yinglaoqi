@@ -4,7 +4,11 @@
     "displayTitle":"Yinglaoqi",
     "avatarUrl":"https://avatars.githubusercontent.com/u/174717889?v=4",
     "faviconUrl":"https://pic1.imgdb.cn/item/677a0ee9d0e0a243d4ef1841.jpg",
-    "homeUrl":"https://ymgjdsh.github.io/yinglaoqi/",
+    "homeUrl":"https://ymgjdsh.github.io/surface/",
+    "UTC": 8,
+    "urlMode": "issue",
+    "showPostSource": 1,
+    "disableCamo": 1,
     "startSite":"12/03/2024",
     "email":"1650126260@qq.com",
     "filingNum":"萌N备20023628号",
@@ -23,5 +27,6 @@
     "script":"<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>",
     "indexScript":"<script src='https://blog.liyifan.xyz/assets/NumPagination.js'></script>",
     "allHead":"<script src='https://blog.liyifan.xyz/assets/GmeekBSZ.js'></script><script src='https://blog.liyifan.xyz/assets/yifantheme.js'></script><script src='https://blog.liyifan.xyz/assets/live2d.js'></script>",
+    "allHead": "<script src='https://blog.65536.website/GmeekVercount.js'></script><script src='https://blog.65536.website/GmeekTOC.js'></script>"
     "GMEEK_VERSION":"last"
    }
