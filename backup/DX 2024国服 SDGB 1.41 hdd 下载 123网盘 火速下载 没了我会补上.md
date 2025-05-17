@@ -153,3 +153,5 @@ https://www.94joy.cn/maimai/267/
 
 
 `Gmeek-html<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113454362919157&bvid=/BV1CJDkYoE3Y&cid=26690520318&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="460px"></iframe>`
+
+Gmeek-html<iframe width="560" height="315" src="https://www.youtube.com/embed/WRpdw-NGWPQ?si=6RSt4NFoTkIPK49i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
