@@ -1,3 +1,4 @@
+下载SDGBhttps://www.123912.com/s/2LjLVv-bntwh
 下载需要付款？
 如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 
 
@@ -7,7 +8,7 @@
  按大键盘上8进行投币
 )1.如何启动游戏？
 
-双击点击start.exe即可
+双击点击启动乌蒙dx.exe即可
 
 2.提示odd xxxxx 找不到sc指令？？？ 
 你的系统环境变量出了问题 去控制中心 高级设置 环境变量 Path里面看看 %systemroot%是否完整
