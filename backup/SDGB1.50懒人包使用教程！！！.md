@@ -48,7 +48,7 @@ config.yml
 
 
 8.如何更新?
-去买更新包
+解压1.50 X更新包压缩包 然后丢到SDGB2025\Package\Sinmai_Data\StreamingAssets
 
 9.如何开启自动游玩 如何解锁全部收藏品/歌曲/搭档？？
 
