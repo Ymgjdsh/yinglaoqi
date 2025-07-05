@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark_dimmed" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    <script src='https://blog.liyifan.xyz/assets/GmeekBSZ.js'></script><script src='https://blog.liyifan.xyz/assets/yifantheme.js'></script><script src='https://blog.liyifan.xyz/assets/live2d.js'></script>
+    
     <link rel="icon" href="https://pic1.imgdb.cn/item/677a0ee9d0e0a243d4ef1841.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -140,7 +140,7 @@ config.yml
 
 。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/32.html">
+<meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/SDGB1.50-lan-ren-bao-shi-yong-jiao-cheng-%EF%BC%81%EF%BC%81%EF%BC%81.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/174717889?v=4">
 <title>SDGB1.50懒人包使用教程！！！</title>
 
@@ -180,6 +180,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <a href="https://ymgjdsh.github.io/yinglaoqi/" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/Ymgjdsh/yinglaoqi/issues/32" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
     </a>
     
@@ -234,7 +240,7 @@ config.yml<br>
 启动游戏之后的左上角面板那里开</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/7b4860d6-6bc3-4e21-be2a-a48dab131254"><img src="https://github.com/user-attachments/assets/7b4860d6-6bc3-4e21-be2a-a48dab131254" alt="Image" style="max-width: 100%; height: auto;"></a></p>
 <p>把这个地方的false  看自己想要啥 改成true就行</p></div>
-<div style="font-size:small;margin-top:8px;float:right;">❤️ 页面设计来自LIYIFAN 请V我50！❤️</div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
@@ -249,8 +255,8 @@ config.yml<br>
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if("12/03/2024"!=""){
-    var startSite=new Date("12/03/2024");
+if("12/13/2024"!=""){
+    var startSite=new Date("12/13/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -291,7 +297,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
-
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 cmButton=document.getElementById("cmButton");
     span=document.createElement("span");
     span.setAttribute("class","Counter");
@@ -338,6 +344,6 @@ function iFrameLoading(){
 
 
 </script>
-<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>
+
 
 </html>

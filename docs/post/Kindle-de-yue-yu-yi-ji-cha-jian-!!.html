@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark_dimmed" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    <script src='https://blog.liyifan.xyz/assets/GmeekBSZ.js'></script><script src='https://blog.liyifan.xyz/assets/yifantheme.js'></script><script src='https://blog.liyifan.xyz/assets/live2d.js'></script>
+    
     <link rel="icon" href="https://pic1.imgdb.cn/item/677a0ee9d0e0a243d4ef1841.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -32,7 +32,7 @@ _下载地址[https://wwuv.lanzouw.com/iFFYN2tgnsfe_
 > [!NOTE]
 > 注意，如果你的 Kindle 固件是 5.16.3 或更新版本，需要使用支持 HF（hard float）的插件。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/19.html">
+<meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/Kindle-de-yue-yu-yi-ji-cha-jian-%21%21.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/174717889?v=4">
 <title>Kindle的越狱以及插件!!</title>
 
@@ -72,6 +72,12 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <a href="https://ymgjdsh.github.io/yinglaoqi/" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/Ymgjdsh/yinglaoqi/issues/19" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
     </a>
     
@@ -259,7 +265,7 @@ Helper 是一个小工具集合，里面有两个比较有用的小工具，分�
 <p>然后进入 KUAL，点击【Helper+】进入小工具集合，点击【PREVENT ScreenSaver】即可禁止 Kindle 休眠，点击【ALLOW ScreenSaver】即可恢复 Kindle 休眠。<br>
 <a href="https://bookfere.com/post/311.html%EF%BC%88" rel="nofollow">https://bookfere.com/post/311.html（</a> 转载地 ）</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ff4ab614-6a76-4510-963e-5d6cb96cfe0f"><img src="https://github.com/user-attachments/assets/ff4ab614-6a76-4510-963e-5d6cb96cfe0f" alt="神奇的Kindle" style="max-width: 100%; height: auto;"></a></p></div>
-<div style="font-size:small;margin-top:8px;float:right;">❤️ 页面设计来自LIYIFAN 请V我50！❤️</div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
@@ -274,8 +280,8 @@ Helper 是一个小工具集合，里面有两个比较有用的小工具，分�
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if("12/03/2024"!=""){
-    var startSite=new Date("12/03/2024");
+if("12/13/2024"!=""){
+    var startSite=new Date("12/13/2024");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -316,7 +322,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
-
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
 
 
 
@@ -359,6 +365,6 @@ function iFrameLoading(){
 
 
 </script>
-<script src='https://blog.liyifan.xyz/assets/cat_backtotop.js'></script><script src='https://blog.liyifan.xyz/assets/lazyload.js'></script><script src='https://blog.liyifan.xyz/assets/viewimg.js'></script><script src='https://blog.liyifan.xyz/assets/subtitle_id.js'></script>
+
 
 </html>
