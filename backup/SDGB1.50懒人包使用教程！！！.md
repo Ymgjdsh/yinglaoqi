@@ -48,12 +48,12 @@ config.yml
 
 
 8.如何更新?
-解压1.50 X更新包压缩包 然后丢到SDGB2025\Package\Sinmai_Data\StreamingAssets
+解压1.50 X更新包压缩包 你会看见例如A7100的文件夹 打开看一下里面有没有套娃 如果没有  就把文件夹丢到SDGB2025\Package\Sinmai_Data\StreamingAssets 打开游戏就可以发现更新了
 
 9.如何开启自动游玩 如何解锁全部收藏品/歌曲/搭档？？
 
 在VScode中把cheat栏列autoplay调为true
-启动游戏之后的左上角面板那里开
+启动游戏之后的左上角面板那里开 AP FC ......最好打开disable mode update
 
 ![Image](https://github.com/user-attachments/assets/7b4860d6-6bc3-4e21-be2a-a48dab131254)
 
