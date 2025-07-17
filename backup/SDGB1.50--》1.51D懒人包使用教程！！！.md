@@ -59,5 +59,11 @@ config.yml
 
 把这个地方的false  看自己想要啥 改成true就行
 
-
+10. 1.50如何更新1.51
+其实谈不上更新 只需要替换一个ICF1文件  
+如下
+首先https://www.123912.com/s/2LjLVv-Tutwh 下载后 文件名应该是 ICF1
+其次 打开D:\SDGB2025\Package\amfs
+然后 如果里面有ICF把下载的ICF1替换进去
+最后 启动游戏 发现已经更新到1.51
 
