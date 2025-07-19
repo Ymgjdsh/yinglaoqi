@@ -68,4 +68,20 @@ config.yml
 最后 启动游戏 发现已经更新到1.51
 
 
+11.odd.sys服务无法启用 如下
+
+![挖槽怎么启动不了 退钱！](https://github.com/user-attachments/assets/aebf1508-617e-402f-ad31-39904db7c65b)
+ 不要慌张 下载NO ODD.SYS SEGATOOLS解决 
+下载:https://www.123912.com/s/2LjLVv-TUtwh
+解压后 直接全选文件夹里的文件 复制到D:\SDGB2025\Package并全部替换
+随后 点击 启动.bat 后即可启动游戏
+
+
+![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
+**吊图一大堆**
+
+
+
+
+
 
