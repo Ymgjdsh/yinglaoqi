@@ -76,6 +76,8 @@ config.yml
 解压后 直接全选文件夹里的文件 复制到D:\SDGB2025\Package并全部替换
 随后 点击 启动.bat 后即可启动游戏
 
+12.已更新1.51E
+
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
