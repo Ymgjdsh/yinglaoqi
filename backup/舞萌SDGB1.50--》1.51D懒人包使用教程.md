@@ -79,6 +79,7 @@ config.yml
 12.已更新1.51E
 需要放置A012更新包
 而且还要ICF文件（放置方法和第十条一样 替换源文件）
+但是现在不会显示 得等华丽服务器更新(误
 
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
