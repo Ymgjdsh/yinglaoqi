@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Thu, 24 Jul 2025 12:55:23 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>舞萌SDGB1.50--》1.51D懒人包使用教程</title><link>https://ymgjdsh.github.io/yinglaoqi//post/wu-meng-SDGB1.50--%E3%80%8B1.51D-lan-ren-bao-shi-yong-jiao-cheng.html</link><description>下载SDGB **：由于有SB急眼天天发qq邮件给我， 所以现在不出示下载链接,需要的可以等人发**
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yinglaoq的BLOG</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>Yinglaoq的BLOG</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Sun, 27 Jul 2025 14:53:05 +0000</lastBuildDate><managingEditor>Yinglaoq的BLOG</managingEditor><ttl>60</ttl><webMaster>Yinglaoq的BLOG</webMaster><item><title>舞萌SDGB1.50--》1.51D懒人包使用教程</title><link>https://ymgjdsh.github.io/yinglaoqi//post/wu-meng-SDGB1.50--%E3%80%8B1.51D-lan-ren-bao-shi-yong-jiao-cheng.html</link><description>下载SDGB **：由于有SB急眼天天发qq邮件给我， 所以现在不出示下载链接,需要的可以等人发**
 下载需要付款？
 如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 
 
@@ -81,6 +81,9 @@ config.yml
 需要放置A012更新包
 而且还要ICF文件（放置方法和第十条一样 替换源文件）
 但是现在不会显示 得等华丽服务器更新(误
+
+13.Failed to initialize Melon Loader......怎么办?
+确保没有中文路径 并且游戏不是在中文文件夹里
 
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)

@@ -81,6 +81,9 @@ config.yml
 而且还要ICF文件（放置方法和第十条一样 替换源文件）
 但是现在不会显示 得等华丽服务器更新(误
 
+13.Failed to initialize Melon Loader......怎么办?
+确保没有中文路径 并且游戏不是在中文文件夹里
+
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
