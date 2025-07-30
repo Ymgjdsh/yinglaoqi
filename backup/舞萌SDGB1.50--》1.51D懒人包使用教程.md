@@ -84,6 +84,17 @@ config.yml
 13.Failed to initialize Melon Loader......怎么办?
 确保没有中文路径 并且游戏不是在中文文件夹里
 
+14.摄像头黑屏无法扫码？
+(1)没有正确绑定摄像头ID 请绑定正确的ID #下面填入你的摄像头ID
+    chimeCameraId: 0
+    leftQrCameraId: 0
+    rightQrCameraId: 0
+    photoCameraId: 0
+(2) 把摄像头清晰度设置成640x480 在启动游戏
+(3)在Aquamai.tom中调整相关配置
+(4)更改屏幕分辨率
+(5)笔记本用户尝试外接摄像头？
+
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
