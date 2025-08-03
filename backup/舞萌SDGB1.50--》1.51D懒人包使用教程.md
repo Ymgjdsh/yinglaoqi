@@ -38,6 +38,7 @@ config.yml
 6.如何开启MOD（作弊面板）并且扫码登录？
 
 同样是上一个的操作 然后下滑找到modsetting 然后把showpanel后面的false改为true
+然后你找到dummylogin  把他后面也改成true
 
 7.扫码登录 我没有摄像头怎么登录啊
 
