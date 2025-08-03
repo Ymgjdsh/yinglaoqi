@@ -59,7 +59,7 @@ config.yml
 
 ![Image](https://github.com/user-attachments/assets/7b4860d6-6bc3-4e21-be2a-a48dab131254)
 
-把这个地方的false  看自己想要啥 改成true就行
+把这个地方的false  看自己想要啥 改成true就行(图里的是假的别试了)
 
 10. 1.50如何更新1.51
 其实谈不上更新 只需要替换一个ICF1文件  
