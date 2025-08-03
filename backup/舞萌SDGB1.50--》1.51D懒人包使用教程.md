@@ -97,6 +97,15 @@ config.yml
 (4)更改屏幕分辨率
 (5)笔记本用户尝试外接摄像头？
 
+15.标题服务器怎么坏了 怎么传不上分了
+因为你狗号坠机了 或者填写错误了 或者你用了上面的无odd包
+解决方法： 打开Package里的segatools.ini
+找到
+
+<img width="199" height="115" alt="Image" src="https://github.com/user-attachments/assets/b1a8c562-0f5d-4ee0-9ca8-53589c0393ee" />
+看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题
+
+
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
