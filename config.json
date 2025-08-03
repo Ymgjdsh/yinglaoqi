@@ -16,7 +16,7 @@
     "yearColorList":["#d6b1e6", "#99ccf0", "#c2f2ca", "#f6f7cb", "#cfabc9"],
     "i18n":"CN",
     "UTC":8,
-    "urlMode":"shuzi",
+    "urlMode":"number",
     "showPostSource":1,
     "rssSplit":"sentence",
     "bottomText":"转载请注明出处，欢迎留言和我聊天",
