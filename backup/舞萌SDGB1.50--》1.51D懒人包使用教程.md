@@ -106,6 +106,8 @@ config.yml
 看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题
 
 
+**EX>>** https://github.com/clansty/MaiChartManager  
+很好的模组和铺面管理器 同时也是音乐播放器~
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
