@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Tue, 05 Aug 2025 17:48:53 +0000</lastBuildDate><managingEditor>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</managingEditor><ttl>60</ttl><webMaster>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</webMaster><item><title>友情链接</title><link>https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</link><description>&gt; 这里记录了一些有趣的链接。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</guid><pubDate>Sun, 03 Aug 2025 18:54:11 +0000</pubDate></item><item><title>手台指南</title><link>https://ymgjdsh.github.io/yinglaoqi//post/shou-tai-zhi-nan.html</link><description>舞萌手台须知
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Sun, 10 Aug 2025 14:12:35 +0000</lastBuildDate><managingEditor>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</managingEditor><ttl>60</ttl><webMaster>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</webMaster><item><title>友情链接</title><link>https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</link><description>&gt; 这里记录了一些有趣的链接。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</guid><pubDate>Sun, 03 Aug 2025 18:54:11 +0000</pubDate></item><item><title>手台指南</title><link>https://ymgjdsh.github.io/yinglaoqi//post/shou-tai-zhi-nan.html</link><description>舞萌手台须知
 声明：此为科普游戏机的贴，欢迎
 我认为对于打破信息差让买家有更多知情权再
 购买手台才是道德行为，以下发言有错误请务必
@@ -83,8 +83,12 @@
 在SDGB文件夹/package /Sinmai-Assist  里有一个
 config.yml
 双击  用VS CODE打开  然后往下滑 你就可以看到配置参数
+注意 (1)摄像头ID必须是纯数字 'D:\SDGB2025\Package\Sinmai-Assist\WebCameraList.txt'查看你的ID
+(2) 扫码摄像头和玩家摄像头 的ID 不可以是一样的
+(3) 如果无法解决 尝试在config和Aquamai.toml中  设置 disableEncryption 为 true
+     或者 修改你的狗号 （最好改成你所处地段机厅的狗号） 再运行游戏尝试
 
-6.如何开启MOD（作弊面板）并且扫码登录？
+6.如何开启M OD（作弊面板）并且扫码登录？
 
 同样是上一个的操作 然后下滑找到modsetting 然后把showpanel后面的false改为true
 然后你找到dummylogin  把他后面也改成true
