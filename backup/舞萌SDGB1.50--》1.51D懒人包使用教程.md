@@ -38,7 +38,7 @@ config.yml
 注意 (1)摄像头ID必须是纯数字 "D:\SDGB2025\Package\Sinmai-Assist\WebCameraList.txt"查看你的ID
 (2) 扫码摄像头和玩家摄像头 的ID 不可以是一样的
 (3) 如果无法解决 尝试在config和Aquamai.toml中  设置 disableEncryption 为 true
-     或者 修改你的狗号 （最好改成你所处地段机厅的狗号） 再运行游戏尝试
+     或者 修改你的狗号 （最好改成你所处地段机厅的狗号） 再运行游戏尝试(下文有狗号修改教程)
 
 6.如何开启M OD（作弊面板）并且扫码登录？
 
