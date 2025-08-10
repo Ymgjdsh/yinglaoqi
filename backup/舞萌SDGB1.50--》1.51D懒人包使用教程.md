@@ -108,7 +108,7 @@ config.yml
 找到
 
 <img width="199" height="115" alt="Image" src="https://github.com/user-attachments/assets/b1a8c562-0f5d-4ee0-9ca8-53589c0393ee" />
-看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题
+看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题(别看了狗号自己找汤小云要 我这个是假的)
 
 
 #EX>>** https://github.com/clansty/MaiChartManager  
