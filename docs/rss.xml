@@ -1,2 +1,422 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Tue, 12 Aug 2025 16:22:01 +0000</lastBuildDate><managingEditor>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</managingEditor><ttl>60</ttl><webMaster>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</title><link>https://ymgjdsh.github.io/yinglaoqi/</link><description>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</description><copyright>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174717889?v=4</url><title>avatar</title><link>https://ymgjdsh.github.io/yinglaoqi/</link></image><lastBuildDate>Wed, 13 Aug 2025 12:33:21 +0000</lastBuildDate><managingEditor>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</managingEditor><ttl>60</ttl><webMaster>没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</webMaster><item><title>ASR8601客户使用工具说明20240402</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ASR8601-ke-hu-shi-yong-gong-ju-shuo-ming-20240402.html</link><description>如题
+
+https://www.123912.com/s/2LjLVv-jjtwh
+
+也是直接上传了 没有密码
+
+谁泄露的？（答：不知道）
+
+&lt;img width='235' height='215' alt='Image' src='https://github.com/user-attachments/assets/8d5fce99-87bb-42af-ad1e-5b3fc36b55bb' /&gt;
+
+&lt;img width='201' height='107' alt='Image' src='https://github.com/user-attachments/assets/3f620eb0-efcf-417c-be85-a36f63176f7b' /&gt;。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/ASR8601-ke-hu-shi-yong-gong-ju-shuo-ming-20240402.html</guid><pubDate>Wed, 13 Aug 2025 12:30:18 +0000</pubDate></item><item><title>友情链接</title><link>https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</link><description>&gt; 这里记录了一些有趣的链接。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/you-qing-lian-jie.html</guid><pubDate>Sun, 03 Aug 2025 18:54:11 +0000</pubDate></item><item><title>手台指南</title><link>https://ymgjdsh.github.io/yinglaoqi//post/shou-tai-zhi-nan.html</link><description>舞萌手台须知
+声明：此为科普游戏机的贴，欢迎
+我认为对于打破信息差让买家有更多知情权再
+购买手台才是道德行为，以下发言有错误请务必
+指出
+舞萌手台最需要注意的主要分为按键和触摸方
+案，按键低至两千的台子高至一万二的台子基本
+没有区别，舞萌手台最致命的点在于触摸
+触摸一般分为三种，ito引出，ito烛刻，无痕
+官玻
+最后一种不用想，你买不到，也找不到人帮你
+搞，前三种才是目前主流的触摸方案
+首先ito裸引出一般还分为激光切割手贴和整
+贴，基本没差，一般带玻璃在闲鱼找人代工可以
+四百拿到，这是最低端的方案，寿命不稳，易划
+伤损坏，三千块钱以下的无按键手台就是这样
+烛刻就是在两层玻璃中间夹入ito并且引出引脚
+来链接，更高稳定性，保护更好，但是烛刻目前
+并不完全成熟，目前烛刻方案入门只推荐焊台，
+再往下已经有烛刻卖家跑路，憋憋又笑笑，再往
+上就是adx
+最后一种是无痕，由于本人认知局限性并不了
+解过多，但目前能遇到的两种无痕手台都是极好
+的，具体是什么请去问问，不想详说
+我认为有必要说一说舞萌手台的制作成本问题
+以及售后问题
+-般分为以下部分框架/驱动板/按键/玻璃/ito
+舞萌手台早已有许多开源方案，所以呢如果找
+到任何一个框架图去找广告商问，一般分为铝合
+金/pp板/密度板（前优后劣）实际上这玩意也没
+多贵，估计两三百吧没问过，但肯定不高
+驱动板目前最常见的还是mpr121或者rp2040，
+这东西有多便宜呢，100以内
+按键前面有说过，不管多少钱的台子都是一样
+通用的，但一般下至淘宝键上至免键也不过
+400-1000，还有其他中间的按键，这里还要特
+殊提到一种3d打印基底的按键，这个成本多少
+不知道，但能卖到和塑按键一样的价格难不成成
+本也一样？属于本人认知差的点
+触摸ito，两三四百的东西
+也就是说这些东西加上运费，至多1500你可以
+弄出一个最低端不稳定的ito台
+舞萌手台一定慎买，许多常见的手台制作者都
+有各种瓜，跑路的制作者我个人听说的都已有一
+手之数，就我个人认为，焊青春烛刻台可以踢死
+所有ito台了
+
+来自闲鱼逐渐赛博阳痿。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/shou-tai-zhi-nan.html</guid><pubDate>Sun, 03 Aug 2025 18:16:11 +0000</pubDate></item><item><title>病毒分享所</title><link>https://ymgjdsh.github.io/yinglaoqi//post/bing-du-fen-xiang-suo.html</link><description>有没有人能发我点好玩的程序 链接发评论区。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/bing-du-fen-xiang-suo.html</guid><pubDate>Sun, 03 Aug 2025 15:29:19 +0000</pubDate></item><item><title>Fun Fact</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Fun%20Fact.html</link><description>后室里根本没有怪。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Fun%20Fact.html</guid><pubDate>Sat, 02 Aug 2025 15:17:49 +0000</pubDate></item><item><title>舞萌SDGB1.50--》1.51D懒人包使用教程</title><link>https://ymgjdsh.github.io/yinglaoqi//post/wu-meng-SDGB1.50--%E3%80%8B1.51D-lan-ren-bao-shi-yong-jiao-cheng.html</link><description>.下载SDGB **：由于有SB急眼天天发qq邮件给我， 所以现在不出示下载链接,需要的可以等人发**
+下载需要付款？
+如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 
+新版本仓库(如果上面的用不了了可以看看):https://github.com/hmjz100/123panYouthMember
+
+
+下载后请存放到D盘
+ 
+ 按大键盘上8进行投币
+)1.如何启动游戏？
+
+双击点击启动乌蒙dx.exe即可
+
+2.提示odd xxxxx 找不到sc指令？？？ 
+你的系统环境变量出了问题 去控制中心 高级设置 环境变量 Path里面看看 %systemroot%是否完整
+
+3.咋是灰网啊我去
+如果你进入游戏的时候 显示net坏 那么就是没有绿网
+如下路径C:\Windows\System32\drivers\etc
+找到 hosts文件 记事本打开 把里面东西全删了 改成下面这些
+127.0.0.1 id.twitch.tv #S302
+129.28.248.89 wq.sys-all.cn
+81.71.193.236 ai.sys-all.cn
+42.193.74.107 wi.sys-all.cn
+81.70.119.195 at.sys-all.cn
+然后保存 再打开你的start.bat
+
+4：我用simna没反应 start.bat 打不开怎么办？
+请使用start.bat
+可能有这些原因 你的windows10时区不是中国 你没有以管理员运行start.bat 你的包被偷工减料了
+网络问题无解 版本更新 slim.ver 缺失........反正你按照我这个顺序逐一排查就对了
+
+
+5.摄像头如何配置
+在SDGB文件夹/package /Sinmai-Assist  里有一个
+config.yml
+双击  用VS CODE打开  然后往下滑 你就可以看到配置参数
+注意 (1)摄像头ID必须是纯数字 'D:\SDGB2025\Package\Sinmai-Assist\WebCameraList.txt'查看你的ID
+(2) 扫码摄像头和玩家摄像头 的ID 不可以是一样的
+(3) 如果无法解决 尝试在config和Aquamai.toml中  设置 disableEncryption 为 true
+     或者 修改你的狗号 （最好改成你所处地段机厅的狗号） 再运行游戏尝试(下文有狗号修改教程)
+
+6.如何开启M OD（作弊面板）并且扫码登录？
+
+同样是上一个的操作 然后下滑找到modsetting 然后把showpanel后面的false改为true
+然后你找到dummylogin  把他后面也改成true
+还有autoplay fastplay什么的 也是这样子开 面板才会显示
+
+7.扫码登录 我没有摄像头怎么登录啊
+
+1.打开微信舞萌dx公众号 2.获得玩家二维码 3.在那个界面长按二维码并且扫描 4.获得字符串
+2.复制获得的字符串到你已经打开并且在扫描二维码页面的舞萌 6.看到悬浮窗Dummylogin 那里 在第一个大框Token下面填写你复制的字符串 然后点击Token Login 就会发现登录了 7.玩游戏
+方案2：上机玩一把之后 上传成绩 然后去你的 userdataout文件夹（自己找找在哪里）获得userId
+以后就可以用这个UserID直接在刚刚那个悬浮窗下面登录 但是前提是30min前刷新过二维码(不然会关你15分钟小黑屋）
+
+
+8.如何更新?
+解压1.50 X更新包压缩包 你会看见例如A71XX的文件夹 打开看一下里面有没有套娃 如果没有  就把文件夹丢到SDGB2025\Package\Sinmai_Data\StreamingAssets 打开游戏就可以发现更新了 (积累更新包必须一起放入)
+
+9.如何开启自动游玩 如何解锁全部收藏品/歌曲/搭档？？
+
+在VScode中把cheat栏列autoplay调为true
+启动游戏之后的左上角面板那里开 AP FC ......最好打开disable mode update
+
+![Image](https://github.com/user-attachments/assets/7b4860d6-6bc3-4e21-be2a-a48dab131254)
+
+把这个地方的false  看自己想要啥 改成true就行(图里的是假的别试了)
+
+10. 1.50如何更新1.51
+其实谈不上更新 只需要替换一个ICF1文件  
+如下
+首先https://www.123912.com/s/2LjLVv-Tutwh 下载后 文件名应该是 ICF1
+其次 打开D:\SDGB2025\Package\amfs
+然后 如果里面有ICF把下载的ICF1替换进去
+最后 启动游戏 发现已经更新到1.51
+
+
+11.odd.sys服务无法启用 如下
+
+![挖槽怎么启动不了 退钱！](https://github.com/user-attachments/assets/aebf1508-617e-402f-ad31-39904db7c65b)
+ 不要慌张 下载NO ODD.SYS SEGATOOLS解决 
+下载:https://www.123912.com/s/2LjLVv-TUtwh
+解压后 直接全选文件夹里的文件 复制到D:\SDGB2025\Package并全部替换
+随后 点击 启动.bat 后即可启动游戏
+
+12.已更新1.51E
+需要放置A012更新包
+而且还要ICF文件（放置方法和第十条一样 替换源文件）
+但是现在不会显示 得等华丽服务器更新(误
+
+13.Failed to initialize Melon Loader......怎么办?
+确保没有中文路径 并且游戏不是在中文文件夹里
+
+14.摄像头黑屏无法扫码？
+(1)没有正确绑定摄像头ID 请绑定正确的ID #下面填入你的摄像头ID
+    chimeCameraId: 0
+    leftQrCameraId: 0
+    rightQrCameraId: 0
+    photoCameraId: 0
+(2) 把摄像头清晰度设置成640x480 在启动游戏
+(3)在Aquamai.tom中调整相关配置
+(4)更改屏幕分辨率
+(5)笔记本用户尝试外接摄像头？
+
+15.标题服务器怎么坏了 怎么传不上分了
+因为你狗号坠机了 或者填写错误了 或者你用了上面的无odd包
+解决方法： 打开Package里的segatools.ini
+找到
+
+&lt;img width='199' height='115' alt='Image' src='https://github.com/user-attachments/assets/b1a8c562-0f5d-4ee0-9ca8-53589c0393ee' /&gt;
+看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题(别看了狗号自己找汤小云要 我这个是假的)
+
+
+#EX&gt;&gt;** https://github.com/clansty/MaiChartManager  
+很好的模组和铺面管理器 同时也是音乐播放器~
+
+![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
+**吊图一大堆**
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/wu-meng-SDGB1.50--%E3%80%8B1.51D-lan-ren-bao-shi-yong-jiao-cheng.html</guid><pubDate>Sun, 15 Jun 2025 03:11:43 +0000</pubDate></item><item><title>honriz 基岩版 1.21.81黑客 极小无后门!</title><link>https://ymgjdsh.github.io/yinglaoqi//post/honriz%20-ji-yan-ban-%201.21.81-hei-ke-%20-ji-xiao-wu-hou-men-%21.html</link><description>[horion.zip](https://github.com/user-attachments/files/20642844/horion.zip)
+
+下载后 打开软件 点击选择 选择同目录里面的dll文件即可。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/honriz%20-ji-yan-ban-%201.21.81-hei-ke-%20-ji-xiao-wu-hou-men-%21.html</guid><pubDate>Sun, 08 Jun 2025 04:38:11 +0000</pubDate></item><item><title>华强北W527芯片 神秘复读了文件</title><link>https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-W527-xin-pian-%20-shen-mi-fu-du-le-wen-jian.html</link><description>[神秘文件 支持S16.zip](https://github.com/user-attachments/files/20642814/S16.zip)
+
+就看你有没有实力破解了。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-W527-xin-pian-%20-shen-mi-fu-du-le-wen-jian.html</guid><pubDate>Sun, 08 Jun 2025 04:29:05 +0000</pubDate></item><item><title>华强北手表使用技巧整合</title><link>https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-shou-biao-shi-yong-ji-qiao-zheng-he.html</link><description>HSC系统打开开发者选项教程 https://www.bilibili.com/video/BV1DS42197Tc/?spm_id_from=333.337.search-card.all.click&amp;vd_source=51ac3392cf2fd955a04a1bc24fd998e0
+
+刷入橙狐教程:https://www.bilibili.com/video/BV18W9UYFEkx/?spm_id_from=333.337.search-card.all.click
+
+新版Root教程:https://www.bilibili.com/video/BV1KRN9eeE6t?spm_id_from=333.788.recommend_more_video.1&amp;vd_source=51ac3392cf2fd955a04a1bc24fd998e0
+
+老版本ROOT教程:https://www.bilibili.com/video/BV1b9eje6E5W/?spm_id_from=333.1391.0.0&amp;vd_source=51ac3392cf2fd955a04a1bc24fd998e0
+
+【手表刷入LineageOS教程(DW99)】 https://www.bilibili.com/video/BV1Sr1tYmEi8/?share_source=copy_web&amp;vd_source=4f035582cafd99763dc3edae62523cf7
+
+资源下载站（可能失效）:https://disk.brothersheng.top/。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-shou-biao-shi-yong-ji-qiao-zheng-he.html</guid><pubDate>Sat, 24 May 2025 12:52:30 +0000</pubDate></item><item><title>今天是520</title><link>https://ymgjdsh.github.io/yinglaoqi//post/jin-tian-shi-520.html</link><description>今天是2025/5/20 
+
+
+地球运动轨道及位置信息
+
+2025年5月20日，地球位于椭圆轨道中，距太阳约1.51亿公里。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/jin-tian-shi-520.html</guid><pubDate>Tue, 20 May 2025 08:01:37 +0000</pubDate></item><item><title>DX 2024国服 SDGB 1.41 hdd 下载 123网盘 火速下载 没了我会补上</title><link>https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</link><description>### 经过Deepseek指正后的使用教程(推荐阅读 逻辑更加严谨):【探索游戏资源】Maimai DX模拟器环境搭建指南（含独家资源分享）
+
+◆ 资源说明
+本次分享的是基于闲鱼市场流通的Maimai DX模拟器整合包（版本号CN1.41-I），实测在Windows 10系统下可稳定运行。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/DX%202024-guo-fu-%20SDGB%201.41%20hdd%20-xia-zai-%20123-wang-pan-%20-huo-su-xia-zai-%20-mei-le-wo-hui-bu-shang.html</guid><pubDate>Thu, 01 May 2025 04:37:58 +0000</pubDate></item><item><title>如何把你的Kindle 装上游戏</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ru-he-ba-ni-de-Kindle%20-zhuang-shang-you-xi.html</link><description>[插件github下载](https://github.com/user-attachments/files/20001993/2022.5.19_kindle.zip)
+
+前提条件
+设备已越狱
+
+确保KPW3已成功越狱，越狱后需在设备中看到“You are JailBroken”文档作为成功标志12。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/ru-he-ba-ni-de-Kindle%20-zhuang-shang-you-xi.html</guid><pubDate>Sat, 26 Apr 2025 05:54:42 +0000</pubDate></item><item><title>获得WIn10开机密码</title><link>https://ymgjdsh.github.io/yinglaoqi//post/huo-de-WIn10-kai-ji-mi-ma.html</link><description>https://wwwd.lanzoum.com/iaIcj17uaawb
+密码:kjmm。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/huo-de-WIn10-kai-ji-mi-ma.html</guid><pubDate>Sat, 26 Apr 2025 03:55:09 +0000</pubDate></item><item><title>极域课堂/极域电子教室 教师客户端破解/学生客户端反控</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ji-yu-ke-tang---ji-yu-dian-zi-jiao-shi-%20-jiao-shi-ke-hu-duan-po-jie---xue-sheng-ke-hu-duan-fan-kong.html</link><description>### 杀死那个石家庄的老师!
+__老师 ：我的电脑怎么黑屏了？双击试试
+居然发现了是!!
+&gt; [!WARNING]
+&gt; 下面的东西别TM在没有自动清除数据 备份 还原的实体机上运行
+ 必须在虚拟机或者学习机房 否则就会像我一样删不干净注册表555555
+
+
+极域教师端2021破解注册码内存地址:https://wwuv.lanzouw.com/igZof2uhsrlg
+极域课堂杀手 :https://wwuv.lanzouw.com/iYz0r2uhsrqb密码:e6n1
+反控好同学让他打开神秘网站*（已测试 2021）：https://wwuv.lanzouw.com/iN6vo2uho6id
+**极域教室2021豪华版教师端**https://share.feijipan.com/s/RWHY4R2v
+替换主程序https://wwuv.lanzouw.com/izqhy2ui3yeh
+密码:gz9b
+WinHEX破解内存修改软件:https://pc.qq.com/detail/16/detail_3456.html **or** https://wwuv.lanzouw.com/ijqgH2uhuqqh 
+密码:97bc
+![Image](https://github.com/user-attachments/assets/f8e92009-2b63-4126-95ca-4bd50bec7712)
+
+![在这里点开 16进制数 然后搜索内存地址中的 16进制基址（？）](https://github.com/user-attachments/assets/a635d6f7-2325-4ba3-843f-066fd38a86e6)
+强制卸载学生端 GEEK: https://wwuv.lanzouw.com/ie6QZ2ui4ipi
+密码:h7ee
+关闭taskkill /f /im studentmain.exe
+获得密码教程:https://www.52pojie.cn/thread-1363281-1-1.html
+
+![Image](https://github.com/user-attachments/assets/21d10eef-340c-404d-8287-2674fa1eb77b)
+卸载失败案例1
+![Image](https://github.com/user-attachments/assets/7cd7445e-389d-4ee7-bd49-ec6d90473eed)
+工具清注册表失败https://wwuv.lanzouw.com/i1W9o2uigsrc
+&gt; [!IMPORTANT]
+&gt; Key 根据二○○二年一月一日《计算机软件保护条例》规定：为了学习和
+研究软件内含的设计思想和原理，通过安
+装、显示、传输或者存储软
+件等方式使用软件的，可以不经软件著作权人许
+可，不向其支付报酬!。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/ji-yu-ke-tang---ji-yu-dian-zi-jiao-shi-%20-jiao-shi-ke-hu-duan-po-jie---xue-sheng-ke-hu-duan-fan-kong.html</guid><pubDate>Fri, 25 Apr 2025 18:33:55 +0000</pubDate></item><item><title>Gmeek 构建失败？自己更新requipment？修改yaml即可</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Gmeek%20-gou-jian-shi-bai-%EF%BC%9F-zi-ji-geng-xin-requipment%EF%BC%9F-xiu-gai-yaml-ji-ke.html</link><description>### 修改为下面的代码到你的yaml中（就是最上面那个文件夹里的） 就是更新到22.4 
+name: build Gmeek
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited]
+  schedule:
+    - cron: '0 16 * * *'
+    
+jobs:
+  build:
+    name: Generate blog
+    runs-on: ubuntu-22.04  # 修改为 22.04
+    if: ${{ github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule' }}
+    permissions: write-all
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Get config.json
+        run: |
+          echo '====== check config.josn file ======'
+          cat config.json
+          echo '====== check config.josn end  ======'
+          sudo apt-get install jq
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+
+      - name: Clone source code
+        run: |
+          GMEEK_VERSION=$(jq -r '.GMEEK_VERSION' config.json)
+          git clone https://github.com/Meekdai/Gmeek.git /opt/Gmeek;
+          cd /opt/Gmeek/
+          lastTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          if [ $GMEEK_VERSION == 'last' ]; then git checkout $lastTag; else git checkout $GMEEK_VERSION; fi;
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r /opt/Gmeek/requirements.txt
+
+      - name: Generate new html
+        run: |
+          cp -r ./* /opt/Gmeek/
+          cd /opt/Gmeek/
+          python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          cp -a /opt/Gmeek/docs ${{ github.workspace }} 
+          cp -a /opt/Gmeek/backup ${{ github.workspace }} 
+          cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
+          
+      - name: update html
+        run: |
+          git config --local user.email '$(jq -r '.email' config.json)'
+          git config --local user.name '${{ github.repository_owner }}'
+          git add .
+          git commit -a -m '🎉auto update by Gmeek action' || echo 'nothing to commit'
+          git push || echo 'nothing to push'
+          sleep 3
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/.'
+          
+  deploy:
+    name: Deploy blog
+    runs-on: ubuntu-22.04  # 修改为 22.04
+    needs: build
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    concurrency:
+      group: 'pages'
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+![Image](https://github.com/user-attachments/assets/631890cf-a242-405b-945f-27e159e0cb0e)
+希望能够帮到你 
+&gt; [!TIP]
+&gt; 别输错地方了 别输入任何额外字符 
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Gmeek%20-gou-jian-shi-bai-%EF%BC%9F-zi-ji-geng-xin-requipment%EF%BC%9F-xiu-gai-yaml-ji-ke.html</guid><pubDate>Sat, 19 Apr 2025 05:56:32 +0000</pubDate></item><item><title>Gmeek强调信息</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</link><description>Github的语法里面有5中警报强调信息，分别是NOTE TIP IMPORTANT WARNING CAUTION 。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Gmeek-qiang-diao-xin-xi.html</guid><pubDate>Sat, 19 Apr 2025 05:27:42 +0000</pubDate></item><item><title>Kindle的越狱以及插件!!</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Kindle-de-yue-yu-yi-ji-cha-jian-%21%21.html</link><description>越狱方法
+[https://www.bilibili.com/video/BV1VZrLYyEfX/?spm_id_from=333.337.search-card.all.click&amp;vd_source=51ac3392cf2fd955a04a1bc24fd998e0](url)
+这个要求我们关注公众号获得插件
+我们当然是拒绝啦
+整个越狱不超过10min 不过没必要刷安卓了 太卡了
+我整理了一些必要的插件
+_下载地址[https://wwuv.lanzouw.com/iFFYN2tgnsfe_
+2](url)
+&gt; [!NOTE]
+&gt; 注意，如果你的 Kindle 固件是 5.16.3 或更新版本，需要使用支持 HF（hard float）的插件。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Kindle-de-yue-yu-yi-ji-cha-jian-%21%21.html</guid><pubDate>Sun, 13 Apr 2025 02:45:35 +0000</pubDate></item><item><title>关于Win7升级Win8（免U盘并且激活）</title><link>https://ymgjdsh.github.io/yinglaoqi//post/guan-yu-Win7-sheng-ji-Win8%EF%BC%88-mian-U-pan-bing-qie-ji-huo-%EF%BC%89.html</link><description>![Image](https://github.com/user-attachments/assets/b496d2ca-fe18-4533-a708-c51b12586db5)
+这 是一个**ISO**文件
+在微软官网即可下载
+然后导入到Win7设备上
+### 直接解压 解压！！！
+就可以看到setup程序
+直接打开就能开始升级系统
+升级后显示windwos未激活!!?
+
+[Windows通用（7 8 8.1 10 11）.zip](https://github.com/user-attachments/files/19722513/Windows.7.8.8.1.10.11.zip)
+
+![Image](https://github.com/user-attachments/assets/7c8c085f-336a-4dcf-b470-8367c728b8d2)
+下载这个软件 解压就能用 似乎是永久激活 2025实测还能用
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/guan-yu-Win7-sheng-ji-Win8%EF%BC%88-mian-U-pan-bing-qie-ji-huo-%EF%BC%89.html</guid><pubDate>Sun, 13 Apr 2025 01:03:21 +0000</pubDate></item><item><title>Landrop局域网全平台传文件夹软件以及使用方法</title><link>https://ymgjdsh.github.io/yinglaoqi//post/Landrop-ju-yu-wang-quan-ping-tai-chuan-wen-jian-jia-ruan-jian-yi-ji-shi-yong-fang-fa.html</link><description>![Image](https://github.com/user-attachments/assets/4ca26957-054b-48a0-a30f-0a4709d0bf01)
+https://landrop.app/下载 
+下载安装后
+
+![Image](https://github.com/user-attachments/assets/512abab1-40f1-4559-9298-bfadf0b0925a)
+我们拥有了这个
+软件会自动搜寻同一个局域网里安装并且打开了这个软件的人
+然后就可以直接传文件夹啦。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/Landrop-ju-yu-wang-quan-ping-tai-chuan-wen-jian-jia-ruan-jian-yi-ji-shi-yong-fang-fa.html</guid><pubDate>Sun, 13 Apr 2025 00:53:26 +0000</pubDate></item><item><title>入世者的光芒</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ru-shi-zhe-de-guang-mang.html</link><description>                  在礼崩乐坏的春秋时代，那孔子周游列国的车辙与长沮、桀溺躬耕的犁痕，在华夏大地上划出了两条截然不同的轨迹。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/ru-shi-zhe-de-guang-mang.html</guid><pubDate>Sat, 15 Mar 2025 08:40:55 +0000</pubDate></item><item><title>bad apple病毒窗口exe</title><link>https://ymgjdsh.github.io/yinglaoqi//post/bad%20apple-bing-du-chuang-kou-exe.html</link><description>[bad_apple_3.zip](https://github.com/user-attachments/files/19126058/bad_apple_3.zip)
+我将在学校释放这个病毒。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/bad%20apple-bing-du-chuang-kou-exe.html</guid><pubDate>Fri, 07 Mar 2025 12:04:37 +0000</pubDate></item><item><title>华强北手表 安卓8.1的 动态壁纸组件 ！</title><link>https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-shou-biao-%20-an-zhuo-8.1-de-%20-dong-tai-bi-zhi-zu-jian-%20%EF%BC%81.html</link><description>[原视频](https://www.bilibili.com/video/BV1oLfBYpELw/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=b7e729e019031605b37407b6cd52d927)
+安装了动态壁纸组件就可以正常使用壁纸啦!
+下方下载
+
+[dw99动态壁纸 Live Wallpaper Picker_8.1.0.apk.zip](https://github.com/user-attachments/files/18516665/dw99.Live.Wallpaper.Picker_8.1.0.apk.zip)
+[蓝凑云下载](https://wwuv.lanzouw.com/iknqc2lq5e4d)
+![不可以涩涩](https://i0.hdslb.com/bfs/new_dyn/1e4c0111a3d9fb3ca3127188850cc298432508175.webp@270w_360h_1s.avif)
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/hua-qiang-bei-shou-biao-%20-an-zhuo-8.1-de-%20-dong-tai-bi-zhi-zu-jian-%20%EF%BC%81.html</guid><pubDate>Thu, 23 Jan 2025 07:31:02 +0000</pubDate></item><item><title>来自2025年对2024年的总结</title><link>https://ymgjdsh.github.io/yinglaoqi//post/lai-zi-2025-nian-dui-2024-nian-de-zong-jie.html</link><description>打完又给我删了 难绷&#13;
+想些啥写啥吧&#13;
+2024年的总结 到现在已经晚到了一个星期了&#13;
+不过我感觉这正是个些总结的好时候&#13;
+2024年 对我来说还是挺有趣的一年 当然也是挺魔幻的&#13;
+这一年 [有总统选举](https://www.youtube.com/watch?v=kRh6598RmHM)  ![总统辩论](https://images.axios.com/tLfuHhNYjmerW4M9Wkaxaj3_kmA=/0x42:3200x1842/1920x1080/2024/06/25/1719333192053.jpg)&#13;
+马斯克升官 股市跳舞...............&#13;
+我自己的方面来说 我放弃了许多旧事物 下半年我卖掉了从2020年开始研究的大部分老设备  那些我录视频用过的.....&#13;
+但是我也接触了愈多新东西 我学习了如python 建立blog PE系统的制作 使用Vegas FL Pr 的方法&#13;
+对了我购入了一台redmi note4x 简称MIDO 并刷入了MIUI9系统（带全面屏） ROM见 [酷安](https://www.coolapk.com/feed/56964262?shareKey=MjIxNGRmYzJmOTk2Njc3YTBjMTM~&amp;shareFrom=com.coolapk.market_14.6.0)&#13;
+还是挺好用的&#13;
+然后。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/lai-zi-2025-nian-dui-2024-nian-de-zong-jie.html</guid><pubDate>Sun, 05 Jan 2025 04:38:30 +0000</pubDate></item><item><title>IAikun材质包</title><link>https://ymgjdsh.github.io/yinglaoqi//post/IAikun-cai-zhi-bao.html</link><description>### _材质包下载_&#13;
+[材质包集合.zip](https://github.com/user-attachments/files/18282000/default.zip)&#13;
+![pack](https://github.com/user-attachments/assets/efe3f757-3bd9-47db-8171-21a04fd3bd37)&#13;
+[@はなしろかおる](https://space.bilibili.com/296415515)&#13;
+&#13;
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/IAikun-cai-zhi-bao.html</guid><pubDate>Tue, 31 Dec 2024 14:17:54 +0000</pubDate></item><item><title>图吧工具箱v9</title><link>https://ymgjdsh.github.io/yinglaoqi//post/tu-ba-gong-ju-xiang-v9.html</link><description>图吧[https://share.feijipan.com/s/tNEZNHzk](url)&#13;
+PVZ[https://share.feijipan.com/s/oBEZN498](url)。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/tu-ba-gong-ju-xiang-v9.html</guid><pubDate>Sat, 28 Dec 2024 04:27:25 +0000</pubDate></item><item><title>ee</title><link>https://ymgjdsh.github.io/yinglaoqi//post/ee.html</link><description>### &#13;
+&#13;
+&gt; **材质包和光影!**&#13;
+&#13;
+![8575d919-590a-44f9-b2b5-339e2a930090](https://github.com/user-attachments/assets/a1e73f65-b090-4da2-9fec-f289f4543041)&#13;
+&#13;
+&gt; github下载https://github.com/Ymgjdsh/yinglaoqi/issues/5&#13;
+&#13;
+&gt; 烂凑云：https://wwuv.lanzouw.com/iQLim2i35f7g&#13;
+&#13;
+密码:g02v。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/ee.html</guid><pubDate>Sat, 14 Dec 2024 04:02:23 +0000</pubDate></item><item><title>[MC1.8.9]年度最有手感绝美的PVP材质包+光影发布{转载资源}</title><link>https://ymgjdsh.github.io/yinglaoqi//post/%5BMC1.8.9%5D-nian-du-zui-you-shou-gan-jue-mei-de-PVP-cai-zhi-bao-%2B-guang-ying-fa-bu-%7B-zhuan-zai-zi-yuan-%7D.html</link><description>_音效包[smoothsounds.zip](https://github.com/user-attachments/files/18134117/smoothsounds.zip)_&#13;
+_视频光影[Sildurs_ Vibrant Shaders v1.283 Lite.zip](https://github.com/user-attachments/files/18134119/Sildurs.Vibrant.Shaders.v1.283.Lite.zip)&#13;
+&#13;
+&gt; 视频材质包[!         §bIris §f16x.zip](https://github.com/user-attachments/files/18134120/bIris.f16x.zip)&#13;
+&#13;
+_字体包[§c可爱§b的§a花依§l0.0.zip](https://github.com/user-attachments/files/18134121/c.b.a.l0.0.zip)__&#13;
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/%5BMC1.8.9%5D-nian-du-zui-you-shou-gan-jue-mei-de-PVP-cai-zhi-bao-%2B-guang-ying-fa-bu-%7B-zhuan-zai-zi-yuan-%7D.html</guid><pubDate>Sat, 14 Dec 2024 04:00:05 +0000</pubDate></item><item><title> 测试b站图片的加载</title><link>https://ymgjdsh.github.io/yinglaoqi//post/%20-ce-shi-b-zhan-tu-pian-de-jia-zai.html</link><description>### _**b站评论区图片成功加载**Z_&#13;
+![测试图片](https://i0.hdslb.com/bfs/new_dyn/2f7d828d542a49e0d04b71198eb6fdf530838928.jpg)&#13;
+怎么发不图片呢&#13;
+&#13;
+![s](https://i0.hdslb.com/bfs/new_dyn/2cf5443358142dd0461d9167633888f7279825379.png)。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/%20-ce-shi-b-zhan-tu-pian-de-jia-zai.html</guid><pubDate>Fri, 13 Dec 2024 14:51:15 +0000</pubDate></item><item><title>原来必须加上label才可以显示吗</title><link>https://ymgjdsh.github.io/yinglaoqi//post/yuan-lai-bi-xu-jia-shang-label-cai-ke-yi-xian-shi-ma.html</link><description>_raa12~~~~~~~~~~~~~加了一些不需要的自定义代码######**__  &#13;
+猜猜我是谁。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/yuan-lai-bi-xu-jia-shang-label-cai-ke-yi-xian-shi-ma.html</guid><pubDate>Fri, 13 Dec 2024 14:02:44 +0000</pubDate></item><item><title>WOW</title><link>https://ymgjdsh.github.io/yinglaoqi//post/WOW.html</link><description>THAT  TOOOO big danger&#13;
+![屏幕截图(9)](https://github.com/user-attachments/assets/215bd497-c9dd-4694-b3d7-a794d0fea32d)&#13;
+&#13;
+&gt; 我尝试一下&#13;
+&#13;
+&#13;
+把b站评论区的图片进行显示&#13;
+!(https://i0.hdslb.com/bfs/new_dyn/21a42f44e46f97fa8c9c311abc078b603537111818963143.jpg)&#13;
+。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//post/WOW.html</guid><pubDate>Fri, 13 Dec 2024 12:50:34 +0000</pubDate></item><item><title>关于我的Youtube</title><link>https://ymgjdsh.github.io/yinglaoqi//about.html</link><description>欢迎订阅 我会免费分享更多技巧https://www.youtube.com/@uare-justfukingboy。</description><guid isPermaLink="true">https://ymgjdsh.github.io/yinglaoqi//about.html</guid><pubDate>Sat, 19 Apr 2025 06:35:51 +0000</pubDate></item></channel></rss>
