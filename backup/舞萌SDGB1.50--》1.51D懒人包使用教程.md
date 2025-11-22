@@ -83,10 +83,12 @@ config.yml
 解压后 直接全选文件夹里的文件 复制到D:\SDGB2025\Package并全部替换
 随后 点击 启动.bat 后即可启动游戏
 
-12.已更新1.51E
+12.已更新1.51I
 需要放置更新包
 而且还要ICF文件（放置方法和第十条一样 替换源文件）
-但是现在不会显示 得等华丽服务器更新(误
+但是现在不会显示 得等华丽服务器更新否则灰网(误
+
+
 
 13.Failed to initialize Melon Loader......怎么办?
 确保没有中文路径 并且游戏不是在中文文件夹里
@@ -116,6 +118,15 @@ config.yml
 
 ![Image](https://github.com/user-attachments/assets/424e634d-8122-4ea4-8d37-a49aa314c034)
 **吊图一大堆**
+
+
+
+有没有神秘小组织能发我SDGA？
+![splash.CpsQvUyK_ZW4YlE.webp](https://github.com/user-attachments/assets/083ee5c9-db8d-4942-a724-151d05502454)
+
+
+
+
 
 
 
