@@ -5,11 +5,9 @@
 
 
 123下载需要付款？
-如果123限制下载额度用油猴插件绕过
-作者版本仓库:https://github.com/hmjz100/123panYouthMember
+建议购买临时会员下载 目前123封锁了直链访问权,脚本失效了
 
-
-下载后请存放到D盘
+下载后请存放到D盘，路径不可有中文
  
  按大键盘上8进行投币
 )1.如何启动游戏？
@@ -114,18 +112,22 @@ _Ps：可以从一些QQ BOT或者tgbot 里获得userid 但同时你的账号信�
     rightQrCameraId: 0
     photoCameraId: 0
 (2) 把摄像头清晰度设置成640x480 在启动游戏
-(3)在Aquamai.tom中调整相关配置
+(3)在Aquamai.toml中调整相关配置
 (4)更改屏幕分辨率
 (5)笔记本用户尝试外接摄像头？
 
 15.标题服务器怎么坏了 怎么传不上分了
-因为你狗号坠机了 或者填写错误了 或者你用了上面的无odd包 
+因为你狗号坠机了 或者填写错误了 或者你用了上面的无odd包  
 解决方法： 打开Package里的segatools.ini
 找到
 
 <img width="199" height="115" alt="Image" src="https://github.com/user-attachments/assets/b1a8c562-0f5d-4ee0-9ca8-53589c0393ee" />
 看到ID了吗 那个就是你的狗号 你需要去找一个正确的狗号 并且填上去 就可以解决这个问题(别看了狗号自己找汤小云要 我这个是假的，当然找人发你狗表也可以)
 
+最后（VPN）请关闭一切网络代理，否则无法连接国内服务器
+
+15.如何全屏
+Alt+回车   然而触摸鼠标可能存在BUG。
 
 #EX>>** https://github.com/clansty/MaiChartManager  
 很好的模组和铺面管理器 同时也是音乐播放器~
@@ -135,10 +137,14 @@ _Ps：可以从一些QQ BOT或者tgbot 里获得userid 但同时你的账号信�
 
 
 题外话：
-_有没有神秘小组织能发我SDGA？
-![splash.CpsQvUyK_ZW4YlE.webp](https://github.com/user-attachments/assets/083ee5c9-db8d-4942-a724-151d05502454)_
+_有没有神秘（）能 Fawo （）？
+![导购](https://github.com/user-attachments/assets/3a1c8d9e-dbab-40ae-81e0-7df29ec358b6)
 
-_我发现只有bing引擎能搜到此文章，有人知道为什么吗？（2025.11.25）_
+
+
+
+
+_目前仍然只有bing引擎能搜到此文章（2025.11.25）_
 
 _希望大家可以交流技术之类的~_
 
