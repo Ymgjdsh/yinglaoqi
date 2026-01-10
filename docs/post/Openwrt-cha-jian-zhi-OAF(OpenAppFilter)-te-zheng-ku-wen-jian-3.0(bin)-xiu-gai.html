@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://blog.freeblock.cn/primer.css' rel='stylesheet' />
+    <script src='https://blog.154451.xyz/assets/GmeekBSZ.js'></script><script src='https://blog.154451.xyz/assets/yifantheme.js'></script><script src='https://blog.154451.xyz/assets/live2d.js'></script>
+    <link rel="icon" href="https://pic1.imgdb.cn/item/677a0ee9d0e0a243d4ef1841.jpg"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="**OpenWrt插件——应用过滤（OpenAppFilter）自定义特征库之法**
+
+**原文发表于二〇二五年八月廿七，修订于二〇二六年元月初八｜DIY**
+
+昔者，吾尝试诸OpenWrt网络管控插件，终独留「应用过滤」（OpenAppFilter）一器。">
+<meta property="og:title" content="Openwrt插件之OAF(OpenAppFilter)特征库文件3.0(bin)修改">
+<meta property="og:description" content="**OpenWrt插件——应用过滤（OpenAppFilter）自定义特征库之法**
+
+**原文发表于二〇二五年八月廿七，修订于二〇二六年元月初八｜DIY**
+
+昔者，吾尝试诸OpenWrt网络管控插件，终独留「应用过滤」（OpenAppFilter）一器。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/Openwrt-cha-jian-zhi-OAF%28OpenAppFilter%29-te-zheng-ku-wen-jian-3.0%28bin%29-xiu-gai.html">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg">
+<title>Openwrt插件之OAF(OpenAppFilter)特征库文件3.0(bin)修改</title>
+
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">Openwrt插件之OAF(OpenAppFilter)特征库文件3.0(bin)修改</h1>
+<div class="title-right">
+    <a href="https://ymgjdsh.github.io/yinglaoqi/" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><p><strong>OpenWrt插件——应用过滤（OpenAppFilter）自定义特征库之法</strong></p>
+<p><strong>原文发表于二〇二五年八月廿七，修订于二〇二六年元月初八｜DIY</strong></p>
+<p>昔者，吾尝试诸OpenWrt网络管控插件，终独留「应用过滤」（OpenAppFilter）一器。此插件虽有VIP之制，供丰沛特征库，然吾所需者，仅限数站而已。故研习自添特征之法。若有亟需者，可购VIP以助开发者，资费三十有九，不亦廉乎？</p>
+<p><strong>一、特征库文件</strong></p>
+<p>先于此处下载无偿特征库：<br>
+网址：<a href="https://www.openappfilter.com/#/feature" rel="nofollow">https://www.openappfilter.com/#/feature</a><br>
+解压后得三文件，中有二.bin文件为特征库。视其升级说明，可知二者之异。<br>
+续解.bin文件，见feature.cfg与app_icons二目，其义自明。</p>
+<p><strong>二、特征码格式</strong></p>
+<p>特征库文件存诸APP特征码，乃未加密之文册，常为.cfg格式，可以文书编辑。<br>
+特征库说明载于：<a href="https://github.com/destan19/OpenAppFilter/wiki/self%E2%80%90define-feature-file">https://github.com/destan19/OpenAppFilter/wiki/self%E2%80%90define-feature-file</a></p>
+<p>特征码用以界定各APP之协议特征，如端口、域名、七层内容字典等，其式如下：<br>
+<code class="notranslate">$id $name:[$proto;$sport;$dport;$host url;$request;$dict]</code></p>
+<ul>
+<li><code class="notranslate">$id</code>：APP独有编号，不可重复。</li>
+<li><code class="notranslate">$name</code>：APP之名，如“抖音”。</li>
+<li><code class="notranslate">$proto</code>：传输层协议，tcp或udp。</li>
+<li><code class="notranslate">$sport</code>：源端口，1-65535，空则匹所有，通常不设。</li>
+<li><code class="notranslate">$dport</code>：目的端口，1-65535，空则匹所有。</li>
+<li><code class="notranslate">$host</code>：HTTP/HTTPS请求之域名，如www.baidu.com。</li>
+<li><code class="notranslate">$dict</code>：七层内容字典，格式如<code class="notranslate">xx:aa|yy:bb</code>。其中xx、yy为位置（首位为0），aa、bb为十六进制内容。例：<code class="notranslate">00:a0|02:08|03:0a</code>，即第0位为0xa0，第2位为0x08，第3位为0x0a。若位置为负，则自末位起计，然通常勿用负数。</li>
+</ul>
+<p><strong>三、自定义特征库</strong></p>
+<p>开启feature.cfg，可见其内容如：</p>
+<pre class="notranslate"><code class="notranslate">#class video 3 视频
+3001 抖音:[tcp;;;-dy-;;,tcp;;;-dy.;;,...]
+3006 斗鱼:[tcp;;;douyu;;,...]
+……
+</code></pre>
+<p>可于同类中复制一APP特征，追加于该类之末。盖appid低三位为类内编号，高位为类id。如3001，其3为视频类，001即抖音编号。<br>
+复制后首须改appid，务使组内唯一，宜取组内最大编号加一。例如今最大为3012，则新appid可设为3013。<br>
+今欲增一网页游戏站poki.com，可添特征码如下：</p>
+<pre class="notranslate"><code class="notranslate">2117 宝玩:[tcp;;;*.poki-cdn.com;;,tcp;;;poki.com;;,tcp;;;t.poki.io;;]
+</code></pre>
+<p>多网址以逗号相隔，其系为“或”。添毕，须更新文件首行之版本号。</p>
+<p>另须取网站标徽之图，格式50×50 PNG。若难寻，可以他图暂代。图存于app_icons目录，名依appid而定。宜先察该目录内最大编号，以免重复。</p>
+<p><strong>四、以浏览器析域名</strong></p>
+<p>于PC端，用Chrome开发者工具甚便：</p>
+<ol>
+<li>启网站前，按F12，择Network标签。</li>
+<li>勾选Preserve log，以保跳转后记录不失。</li>
+<li>点击“🛑”止录钮或“⨯”清旧记。</li>
+<li>于地址栏输入<a href="https://poki.com%E5%B9%B6%E5%9B%9E%E8%BD%A6%E3%80%82" rel="nofollow">https://poki.com并回车。</a></li>
+<li>观Network中Name/Domain列，可见如poki.com、*.poki.io等域名，即可循规添入feature.cfg。</li>
+</ol>
+<p><strong>五、以Wireshark捕无域名之应用</strong></p>
+<p>若应用无显著域名而具独特流量特征（如手游、加密协议），可以Wireshark捕包，取<code class="notranslate">$dict</code>所需字节特征。<br>
+其法有二：</p>
+<ol>
+<li>以笔记本为热点，手机连之，直用Wireshark捕包分析。</li>
+<li>于路由器上以tcpdump捕包，存为.pcap文件，后用Wireshark析之。</li>
+</ol>
+<p>吾所编X86固件已含tcpdump插件，可直接捕包，得文件于<code class="notranslate">/tmp/tcpdump/cap/</code>。亦可于OpenWrt命令行安装tcpdump：</p>
+<pre class="notranslate"><code class="notranslate">opkg update
+opkg install tcpdump
+</code></pre>
+<p>安装后以终端指令捕包。详见：OpenWrt抓包</p>
+<p>以Wireshark开启.pcap文件后，可设过滤条件，如专析IP为192.168.1.101之设备：</p>
+<pre class="notranslate"><code class="notranslate">ip.addr == 192.168.1.101 &amp;&amp; (http.host || tls.handshake.extensions_server_name)
+</code></pre>
+<p>于HTTPS握手包中，展Transport Layer Security → Extension: server_name，右键择Apply as Column，则主界面增Server Name一列，域名一览无遗。<br>
+择该应用TCP/UDP会话，察数据包内容，如：</p>
+<pre class="notranslate"><code class="notranslate">0000   a0 45 13 10 00 1c 00 00 00 03 01 0a 00 00 00 01
+0010   4f 12 09 45 01 5d ...
+</code></pre>
+<p>对应<code class="notranslate">$dict</code>规则可为：<code class="notranslate">00:a0|01:45|02:13|03:10</code></p>
+<p>规匹之议：</p>
+<ul>
+<li>位置宜靠前（前数十字节）。</li>
+<li>宜用固定字段（如协议标志）。</li>
+<li>避用IP、端口、会话ID等易变之数。</li>
+<li>可较数包，得固定字节序列。</li>
+<li>于加密通信（如HTTPS），可自Client Hello/SNI取字节。</li>
+<li>于WebSocket，可察握手包中独特字段。</li>
+</ul>
+<p>吾于Wireshark捕包分析亦非熟手，不过临事而学耳。</p>
+<p><strong>六、封.bin文件</strong></p>
+<p>feature3.0_cn_20250316.bin虽解压即可自定特征，然如何重封为.bin？初以为直压后改后缀即可，实则不然。<br>
+先析其构：</p>
+<p>重命名为tag.gz后缀解压之<br>
+而后将修改后的feature文件替换到解压文件夹<br>
+而后像我这样选中所有文件 并且用7zip将其压缩为tar文件<br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8cab8ff4-70e9-4403-b504-bb02c44af589"><img width="653" height="171" alt="Image" src="https://github.com/user-attachments/assets/8cab8ff4-70e9-4403-b504-bb02c44af589" style="max-width: 100%; height: auto; max-height: 171px;"></a></p>
+<p>而后 再用7zip对tar文件压缩 压缩选项选择gzip即可压缩成.tar.gz<br>
+然后改名成.bin后缀 即可导入插件</p>
+<p>乃知此.bin实为gzip压缩文件。目录构如下：</p>
+<pre class="notranslate"><code class="notranslate">feature/
+├── feature.cfg
+└── app_icons/
+    ├── ...
+</code></pre>
+<p>进入feature目录，而后封包：</p>
+<pre class="notranslate"><code class="notranslate">tar -cf feature.tar feature.cfg app_icons   # 先作tar包
+gzip -c feature.tar &gt; feature3.0_cn_20250822.bin   # 压为.bin格式
+</code></pre>
+<p>遂得新特征库文件feature3.0_cn_20250822.bin。可径于插件管理页面上传。</p>
+<p><strong>七、吾之特征库分享</strong></p>
+<p>吾所制特征库，添有宝玩游戏及数网盘。<br>
+百度网盘：<a href="https://pan.baidu.com/s/1qcsD1XVwoLjC4J3vAwBh2A?pwd=hm8g" rel="nofollow">https://pan.baidu.com/s/1qcsD1XVwoLjC4J3vAwBh2A?pwd=hm8g</a>  取码：hm8g</p>
+<p><strong>八、OpenWrt X86固件</strong></p>
+<p>吾所编X86固件，含应用过滤及网络管控插件，亦备诸科学上网工具：<br>
+百度网盘：<a href="https://pan.baidu.com/s/1BTbtZJQvvUXtfwCAknNJdQ?pwd=xg1r" rel="nofollow">https://pan.baidu.com/s/1BTbtZJQvvUXtfwCAknNJdQ?pwd=xg1r</a>  取码：xg1r</p>
+<p><strong>九、应用过滤之疑难</strong></p>
+<ol>
+<li>所滤网址，或致他站不可访。如蔽数国内视频站，Google遂不能搜。其因未明，吾亦未得解方。（然时而复常）</li>
+<li>此插件或碍Docker。若启应用过滤，容器或报500错。宜先启容器，后开插件。</li>
+<li>若同启科学上网插件，则应用过滤中之站亦为代理之站，过滤遂无效。例如设外网皆走代理，则过滤库中所有外站仍可访。此吾未将外邦社媒、视频站添入特征库之故也。</li>
+</ol>
+<p><strong>OpenWrt</strong></p>
+<p>附加内容:<br>
+<strong>拦截蛋仔派对</strong><br>
+终端运行<br>
+tcpdump -i br-lan host 10.0.0.183 -s 0 -w /tmp/eggparty.pcap<br>
+50s后 Ctr;+c<br>
+保存抓取数据<br>
+strings /tmp/eggparty.pcap | grep -E '.(com|cn|net|org)' | grep -iE '(netease|egg|game|party)' | sort | uniq | head -20<br>
+分析数据 即可获得域名</p>
+<p><strong>微信视频号特征码（来自吾爱破解，不确定有没有用）</strong><br>
+3127 微信视频号:[tcp;;;wxapp.tc.qq.com;/251/20302/stodownload;,tcp;;;video.qq.com;/251/20302/stodownload;,tcp;;;;;1a0:2f|1a1:73|1a4:64,tcp;;;;;1a1:2f|1a2:73|1a5:64,tcp;;;;;1a2:2f|1a3:73|1a6:64,tcp;;;;;1a3:2f|1a4:73|1a7:64,tcp;;;;;1a4:2f|1a5:73|1a8:64]</p></div>
+<div style="font-size:small;margin-top:8px;float:right;">所有内容请在允许下转载和截图录屏</div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://ymgjdsh.github.io/yinglaoqi/">没钱所以挂载于Github的神秘没什么用而且还浪费时间的站</a></div>
+<div id="footer2"><span id="filingNum"><a href="https://beian.miit.gov.cn/" target="_blank">萌N备20023628号</a> • </span>
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if("06/11/2022"!=""){
+    var startSite=new Date("06/11/2022");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","Ymgjdsh/yinglaoqi");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+<script src='https://blog.154451.xyz/assets/cat_backtotop.js'></script><script src='https://blog.154451.xyz/assets/lazyload.js'></script><script src='https://blog.154451.xyz/assets/viewimg.js'></script><script src='https://blog.154451.xyz/assets/subtitle_id.js'></script>
+
+</html>
