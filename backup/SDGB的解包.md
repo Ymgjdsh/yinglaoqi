@@ -104,8 +104,7 @@ fsdecrypt.exe SDGB_1.55.01_20260302122354_0.app
    解压覆盖包，全选所有内容**复制**到 `Package` 目录，覆盖同名文件。
 
 4. **运行**  
-   - 以管理员身份运行 `odd-loader.bat`  
-   - 运行 `launch.bat` 或 `start.bat`
+   - 以管理员身份运行里面包含的bat文件
 
 ### 覆盖包的特点 
 
