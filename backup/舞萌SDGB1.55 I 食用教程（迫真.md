@@ -41,6 +41,7 @@ Win7来凑热闹了？
 5.摄像头如何配置（笔记本似乎不能正常调用）
 在SDGB文件夹/package /Sinmai-Assist  里有一个
 config.yml
+**这里以大多数懒人包最常用的MOD为例，当然aquamai也差不多**
 (什么？你没有Sinmai-Assist?请看第17条)
 双击  用VS CODE打开  然后往下滑 你就可以看到配置参数
 注意 (1)摄像头ID必须是纯数字 "D:\SDGB2026\Package\Sinmai-Assist\WebCameraList.txt"查看你的ID
