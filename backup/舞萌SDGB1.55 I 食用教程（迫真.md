@@ -21,7 +21,6 @@
 如果你进入游戏的时候 显示net坏 那么就是没有绿网
 如下路径C:\Windows\System32\drivers\etc
 找到 hosts文件 记事本打开 把里面东西全删了 改成下面这些
-127.0.0.1 id.twitch.tv #S302
 129.28.248.89 wq.sys-all.cn
 81.71.193.236 ai.sys-all.cn
 42.193.74.107 wi.sys-all.cn
