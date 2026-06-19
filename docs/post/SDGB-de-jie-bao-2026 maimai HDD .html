@@ -88,7 +88,7 @@ fsdecrypt.exe SDGB_1.55.01_20260302122354_0.app
 <meta property="og:url" content="https://ymgjdsh.github.io/yinglaoqi//post/SDGB-de-jie-bao-2026%20maimai%20HDD%20.html">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg">
 <title>SDGB的解包2026 maimai HDD </title>
-<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
 
 
 </head>
@@ -167,7 +167,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <a href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" rel="nofollow">SDGB_1.55.01_20260302122354_0.app(暂时不提供 可以自行搜索)</a></p>
 <h4>2. 使用 <code class="notranslate">fsdecrypt</code> 解包</h4>
 <p>下载 <a href="https://gitea.tendokyu.moe/beerpsi/fsdecrypt/releases" rel="nofollow"><code class="notranslate">fsdecrypt</code></a> 并执行：</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">fsdecrypt.exe SDGB_1.55.01_20260302122354_0.app</pre></div>
+<pre lang="bash" class="notranslate"><code class="notranslate">fsdecrypt.exe SDGB_1.55.01_20260302122354_0.app
+</code></pre>
 <p>或者直接把.app文件拖到fsdecrypt.exe用它打开</p>
 <p>生成 <code class="notranslate">.vhd</code> 文件（如 <code class="notranslate">SDGB_1.55.01_20260302122354_0_3.vhd</code>）。</p>
 <h4>3. 从 <code class="notranslate">.vhd</code> 提取 <code class="notranslate">Package</code> 目录</h4>
@@ -187,19 +188,19 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </li>
 <li>
 <p><strong>部署 <code class="notranslate">MelonLoader</code></strong><br>
-从 <a href="https://github.com/LavaGang/MelonLoader/releases/latest"><code class="notranslate">MelonLoader</code></a> 获取稳定版 → 解压到 <code class="notranslate">Package\</code> <sup><a href="#user-content-fn-1-6eb03690ea55002c82a4dcdd8a7390c2" id="user-content-fnref-1-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
+从 <a href="https://github.com/LavaGang/MelonLoader/releases/latest"><code class="notranslate">MelonLoader</code></a> 获取稳定版 → 解压到 <code class="notranslate">Package\</code> <sup><a href="#user-content-fn-1-e31d8538ae14a81289be80f780e03889" id="user-content-fnref-1-e31d8538ae14a81289be80f780e03889" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
 </li>
 <li>
 <p><strong>添加 <code class="notranslate">AquaMai.toml</code></strong><br>
-下载 <a href="https://pavilions12.github.io/2026/06/12/%E5%88%9D%E6%AC%A1%E6%8E%A2%E7%B4%A2maimai%20HDD/AquaMai.toml" rel="nofollow"><code class="notranslate">AquaMai.toml</code></a> 放到 <code class="notranslate">Package\</code> <sup><a href="#user-content-fn-1-6eb03690ea55002c82a4dcdd8a7390c2" id="user-content-fnref-1-2-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
+下载 <a href="https://pavilions12.github.io/2026/06/12/%E5%88%9D%E6%AC%A1%E6%8E%A2%E7%B4%A2maimai%20HDD/AquaMai.toml" rel="nofollow"><code class="notranslate">AquaMai.toml</code></a> 放到 <code class="notranslate">Package\</code> <sup><a href="#user-content-fn-1-e31d8538ae14a81289be80f780e03889" id="user-content-fnref-1-2-e31d8538ae14a81289be80f780e03889" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
 </li>
 <li>
 <p><strong>创建 <code class="notranslate">Mods</code> 目录</strong><br>
-在 <code class="notranslate">Package\</code> 下新建 <code class="notranslate">Mods</code> 文件夹 <sup><a href="#user-content-fn-1-6eb03690ea55002c82a4dcdd8a7390c2" id="user-content-fnref-1-3-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
+在 <code class="notranslate">Package\</code> 下新建 <code class="notranslate">Mods</code> 文件夹 <sup><a href="#user-content-fn-1-e31d8538ae14a81289be80f780e03889" id="user-content-fnref-1-3-e31d8538ae14a81289be80f780e03889" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
 </li>
 <li>
 <p><strong>安装 <code class="notranslate">AquaMai.dll</code></strong><br>
-从 <a href="https://portal.mumur.net/mai2/aquamai" rel="nofollow">AquaMai 下载页</a> 获取 <strong>版本 ≤ 1.5.19</strong> 的 <code class="notranslate">AquaMai.dll</code> → 放入 <code class="notranslate">Package\Mods\</code> <sup><a href="#user-content-fn-1-6eb03690ea55002c82a4dcdd8a7390c2" id="user-content-fnref-1-4-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
+从 <a href="https://portal.mumur.net/mai2/aquamai" rel="nofollow">AquaMai 下载页</a> 获取 <strong>版本 ≤ 1.5.19</strong> 的 <code class="notranslate">AquaMai.dll</code> → 放入 <code class="notranslate">Package\Mods\</code> <sup><a href="#user-content-fn-1-e31d8538ae14a81289be80f780e03889" id="user-content-fnref-1-4-e31d8538ae14a81289be80f780e03889" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup></p>
 </li>
 <li>
 <p><strong>创建运行时目录</strong><br>
@@ -271,8 +272,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>以管理员身份运行 <code class="notranslate">odd-loader.bat</code></li>
 <li>开启测试模式：
-<div class="highlight highlight-source-batchfile"><pre class="notranslate"><span class="pl-k">bcdedit</span> /set testsigning on
-<span class="pl-k">bcdedit</span> /set nointegritychecks on</pre></div>
+<pre lang="cmd" class="notranslate"><code class="notranslate">bcdedit /set testsigning on
+bcdedit /set nointegritychecks on
+</code></pre>
 重启电脑</li>
 <li>使用方案二覆盖包</li>
 <li>临时关闭杀毒软件</li>
@@ -304,23 +306,25 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li><strong>原因</strong>：缺少 <code class="notranslate">mai2.ini</code> 或未设置声道</li>
 <li><strong>解决</strong>：在 <code class="notranslate">Package\</code> 根目录创建 <code class="notranslate">mai2.ini</code>：
-<div class="highlight highlight-source-ini"><pre class="notranslate"><span class="pl-en">[Sound]</span>
-<span class="pl-k">Sound8Ch</span>=0</pre></div>
+<pre lang="ini" class="notranslate"><code class="notranslate">[Sound]
+Sound8Ch=0
+</code></pre>
 </li>
 </ul>
 <hr>
 <h2>附录：ODD Driver 安全性说明</h2>
 <p><code class="notranslate">odd.sys</code> 是 maimai HDD 破解所需的内核驱动，用于模拟 SEGA 街机硬件。<br>
 典型安全安装脚本（如 <code class="notranslate">odd-loader.bat</code>）内容如下：</p>
-<div class="highlight highlight-source-batchfile"><pre class="notranslate"><span class="pl-k">@</span><span class="pl-k">echo</span> <span class="pl-k">off</span>
-<span class="pl-k">sc</span> stop odd <span class="pl-k">&gt;</span><span class="pl-c1">nul</span> <span class="pl-c1">2</span><span class="pl-k">&gt;</span><span class="pl-c1">nul</span>
-<span class="pl-k">sc</span> delete odd <span class="pl-k">&gt;</span><span class="pl-c1">nul</span> <span class="pl-c1">2</span><span class="pl-k">&gt;</span><span class="pl-c1">nul</span>
-<span class="pl-k">copy</span> /y odd.sys <span class="pl-smi">%SystemRoot%</span>\System32\drivers\
-<span class="pl-k">sc</span> create odd binPath= <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">%SystemRoot%</span>\System32\drivers\odd.sys<span class="pl-pds">"</span></span> type= kernel
-<span class="pl-k">sc</span> <span class="pl-k">start</span> odd
-<span class="pl-k">pause</span>
-<span class="pl-k">sc</span> stop odd
-<span class="pl-k">sc</span> delete odd</pre></div>
+<pre lang="batch" class="notranslate"><code class="notranslate">@echo off
+sc stop odd &gt;nul 2&gt;nul
+sc delete odd &gt;nul 2&gt;nul
+copy /y odd.sys %SystemRoot%\System32\drivers\
+sc create odd binPath= "%SystemRoot%\System32\drivers\odd.sys" type= kernel
+sc start odd
+pause
+sc stop odd
+sc delete odd
+</code></pre>
 <p>该脚本仅执行驱动安装与卸载，无下载、加密、后门等恶意行为。</p>
 <ul>
 <li><strong>风险</strong>：任何未签名内核驱动都有潜在系统不稳定风险，但运行该游戏必需。</li>
@@ -334,8 +338,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </code></pre>
 <section data-footnotes="" class="footnotes"><h2 id="footnote-label" class="sr-only">Footnotes</h2>
 <ol>
-<li id="user-content-fn-1-6eb03690ea55002c82a4dcdd8a7390c2">
-<p><code class="notranslate">MelonLoader</code> 和 <code class="notranslate">AquaMai</code> 也可以通过 <a href="https://github.com/MuNET-OSS/MaiChartManager/releases/latest"><code class="notranslate">MuNET-OSS/MaiChartManager</code></a> 一键安装，选择“让我们说中文！”自动生成配置。 <a href="#user-content-fnref-1-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-1-2-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-backref="" aria-label="Back to reference 1-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="#user-content-fnref-1-3-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-backref="" aria-label="Back to reference 1-3" class="data-footnote-backref">↩<sup>3</sup></a> <a href="#user-content-fnref-1-4-6eb03690ea55002c82a4dcdd8a7390c2" data-footnote-backref="" aria-label="Back to reference 1-4" class="data-footnote-backref">↩<sup>4</sup></a></p>
+<li id="user-content-fn-1-e31d8538ae14a81289be80f780e03889">
+<p><code class="notranslate">MelonLoader</code> 和 <code class="notranslate">AquaMai</code> 也可以通过 <a href="https://github.com/MuNET-OSS/MaiChartManager/releases/latest"><code class="notranslate">MuNET-OSS/MaiChartManager</code></a> 一键安装，选择“让我们说中文！”自动生成配置。 <a href="#user-content-fnref-1-e31d8538ae14a81289be80f780e03889" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-1-2-e31d8538ae14a81289be80f780e03889" data-footnote-backref="" aria-label="Back to reference 1-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="#user-content-fnref-1-3-e31d8538ae14a81289be80f780e03889" data-footnote-backref="" aria-label="Back to reference 1-3" class="data-footnote-backref">↩<sup>3</sup></a> <a href="#user-content-fnref-1-4-e31d8538ae14a81289be80f780e03889" data-footnote-backref="" aria-label="Back to reference 1-4" class="data-footnote-backref">↩<sup>4</sup></a></p>
 </li>
 </ol>
 </section></div>
