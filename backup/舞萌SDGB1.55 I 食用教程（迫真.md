@@ -19,6 +19,15 @@
 比如Z,C,X等等 自己都按一遍就知道是哪个键了
 如何投币？（aquamai）
 按大键盘上+进行投币 （也有可能是8）大键盘9为测试键
+游戏启动没反应 bat 打不开怎么办？
+文件路径不能有中文
+请使用start.bat
+关闭杀毒软件
+游戏助手关一关
+Win7及以下无法打开
+某些手台不支持（？）
+可能有这些原因 你的windows10时区不是中国 你没有以管理员运行start.bat 
+网络问题无解 版本更新 slim.ver 缺失........反正你按照我这个顺序逐一排查就对了
 
 2.提示odd xxxxx 找不到sc指令？？？ 
 你的系统环境变量出了问题 去控制中心 高级设置 环境变量 Path里面看看 %systemroot%是否完整
@@ -32,16 +41,20 @@
 42.193.74.107 wi.sys-all.cn
 81.70.119.195 at.sys-all.cn
 然后保存 再打开你的start.bat
+关闭所有可能存在在你网络环境的vpn
 
-4：我用sinmai没反应 start.bat 打不开怎么办？
-文件路径不能有中文
-请使用start.bat
-杀毒软件立大功
-游戏助手关一关
-Win7来凑热闹了？
-某些手台不支持（？）
-可能有这些原因 你的windows10时区不是中国 你没有以管理员运行start.bat 你的包被偷工减料了
-网络问题无解 版本更新 slim.ver 缺失........反正你按照我这个顺序逐一排查就对了
+4：Net好，但是进去卡在更新或者检查数据100%?
+
+<img width="721" height="493" alt="Image" src="https://github.com/user-attachments/assets/b4087441-ce8f-4f2c-8636-d0a0ca948d26" />
+如上图  这是由于狗号所在机厅没有基准机导致的 问题不大
+解决办法:进入游戏的时候 按大键盘上的服务键（多为数字）进入测试菜单  然后选择游戏设置
+
+<img width="343" height="329" alt="Image" src="https://github.com/user-attachments/assets/71b67687-2927-4a62-a5b6-599333e71612" />
+
+进去之后 把店内招募设置关闭
+
+<img width="571" height="561" alt="Image" src="https://github.com/user-attachments/assets/3051536b-f008-429d-8fa0-603daecea4b5" />
+
 
 
 5.摄像头如何配置（笔记本似乎不能正常调用）
