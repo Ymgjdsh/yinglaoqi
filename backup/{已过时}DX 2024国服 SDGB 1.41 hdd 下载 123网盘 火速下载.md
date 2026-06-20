@@ -1,10 +1,10 @@
-### 经过Deepseek指正后的使用教程(推荐阅读 逻辑更加严谨):【探索游戏资源】Maimai DX模拟器环境搭建指南（含独家资源分享）
-
-◆ 资源说明
-本次分享的是基于闲鱼市场流通的Maimai DX模拟器整合包（版本号CN1.41-I），实测在Windows 10系统下可稳定运行。特别说明：该资源将于2025年6月随官方版本更新失效，建议体验性使用。
+分享的是基于闲鱼市场流通的Maimai DX模拟器整合包（版本号CN1.41-I），实测在Windows 10系统下可稳定运行。特别说明：该资源将于2025年6月随官方版本更新失效，建议体验性使用。
 
 ▼ 资源获取
-主下载：https://www.123912.com/s/2LjLVv-tZewh
+2024懒入下载：https://www.123912.com/s/2LjLVv-tZewh
+2025懒入包下载：https://1816058957.share.123865.com/123pan/2LjLVv-WZvYh
+2026懒入包下载:
+
 
 推荐下载最大文件（约46GB），备用文件视网络情况选择
 
@@ -74,7 +74,7 @@ README.md：完整功能说明
 https://www.94joy.cn/maimai/267/
 
 ◇ 共享声明
-本资源获取自闲鱼市场（原始成本￥35+），经72小时环境调试后公开分享。旨在呼吁：
+本资源获取自闲鱼市场（原始成本￥40+），经72小时环境调试后公开分享。旨在呼吁：
 
 抵制盗版资源商业化倒卖
 
@@ -91,9 +91,7 @@ https://www.94joy.cn/maimai/267/
 
 
 ### 自己写的教程(非常不建议观看 除非你按照deepseek的步骤出错了)
-
-这可能是blog里分享的最贵的东西了（在闲鱼买的 图一乐 你要是误打误撞看见了也没办法）
-链接：https://www.123912.com/s/2LjLVv-tZewh          就下载最大的那个就行了 其他俩文件似乎没啥用(如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 )
+ 就下载最大的那个就行了 其他俩文件似乎没啥用(如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 )
 下载完最大的文件 解压在D盘 没问题的 不是病毒 版本号CN1.41-I 不是K(ABCDEFFGHIJK所以我发的大概是2月的版本) 注意点 因为我被倒卖哥坑了 异常痛恨那些倒卖资源和教程的 所以才半夜扣字分享出来
 
 内置segatools 应该可以直接启动吧？ 不行的话自己解决 我也不知道、
@@ -141,13 +139,6 @@ https://www.94joy.cn/maimai/267/
 难点7.为什么版本号是原神？？
 因为开启了自定义版本号功能 在配置文档里面 把自定义版本号改成关就行了(turn改成false 1改成0)
 
-
-
-
-
-
-本人不对任何程序的分享负责 只是单纯想和那些倒卖的人对着干 首先买这个包体自己花了20多 
- 一直运行不了 闲鱼商家10个小时才跟说必须让我再交15才教我咋弄 最后一个人承担了所有（）他们获得资源是容易的 倒卖是暴力盈利的 哪里管什么版权不版权?如今只剩一个月就失效了 我必须拿出来让大家都知道这种低素质倒卖行为有多ex 并且提高对科技的了解度 以防止自己辛辛苦苦打的游戏还被一个闲鱼上套了几块钱买数据的嘲笑 Thats all
     
 
 
@@ -158,4 +149,8 @@ https://www.94joy.cn/maimai/267/
 `Gmeek-html<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113454362919157&bvid=/BV1CJDkYoE3Y&cid=26690520318&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="460px"></iframe>`
 
 `Gmeek-html<iframe width="560" height="315" src="https://www.youtube.com/embed/WRpdw-NGWPQ?si=6RSt4NFoTkIPK49i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+
+
+I'm not responsible for sharing any programs, I just want to go against those who resell them. First, I spent over 20 yuan on this package myself 
+ It just won't work. The Goofish seller took 10 hours to tell me to pay another 15 before fucking teaching me how to do it. In the end, one person took on all the  They easily obtain resources, but reselling is aggressively fucking profitable. Who cares about copyright or not? Now it's only one month left and it's expired. I have to show everyone how bad this low-quality reselling is, and to raise their understanding of technology, so that their hard-earned game won't be mocked by someone on Xianyu who scammed them for a few yuan to buy data. That's all.
 
