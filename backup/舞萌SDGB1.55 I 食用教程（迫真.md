@@ -2,7 +2,7 @@
 
 > [!WARNING]  
 > **下载提醒**：此一般程度的垃圾教程并不直接提供 SDGB 懒人包下载链接，需要的朋友可以留意评论区（或发我 SDEZ 1.66）。  
-> 如果你是自己拼的包，建议先阅读我的另一篇[文章](https://ymgjdsh.github.io/yinglaoqi/post/SDGB-de-jie-bao.html)，了解 Package 基本构造（不提供 .app 资源，这个东西其实不难找）。
+> 如果你是自己拼的包，建议先阅读我的另一篇[文章](https://ymgjdsh.github.io/yinglaoqi/post/SDGB-de-jie-bao-2026%20maimai%20HDD%20.html)，了解 Package 基本构造（不提供 .app 资源，这个东西其实不难找）。
 
 ---
 
