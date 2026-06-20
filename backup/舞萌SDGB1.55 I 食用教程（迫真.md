@@ -4,31 +4,6 @@
 > **下载提醒**：此一般程度的垃圾教程并不直接提供 SDGB 懒人包下载链接，需要的朋友可以留意评论区（或发我 SDEZ 1.66）。  
 > 如果你是自己拼的包，建议先阅读我的另一篇[文章](https://ymgjdsh.github.io/yinglaoqi/post/SDGB-de-jie-bao-2026%20maimai%20HDD%20.html)，了解 Package 基本构造（不提供 .app 资源，这个东西其实不难找）。
 
----
-
-##  目录
-
-- [下载与存放](#download)
-- [启动游戏](#start)
-- [环境变量问题](#env)
-- [灰网修复](#network)
-- [卡更新/检查数据](#stuck)
-- [摄像头配置](#camera)
-- [MOD与作弊面板](#mod)
-- [无摄像头扫码登录](#login)
-- [游戏更新](#update)
-- [自动游玩与全解锁](#autoplay)
-- [ODD.SYS服务问题](#odd)
-- [小数点版本更新](#dotupdate)
-- [Melon Loader报错](#melon)
-- [摄像头黑屏](#blackcamera)
-- [狗号与标题服务器](#dog)
-- [全屏与显示](#fullscreen)
-- [MOD加载](#modload)
-- [推荐工具](#tools)
-
----
-
 <a id="download"></a>
 ## 📦 下载与存放
 
