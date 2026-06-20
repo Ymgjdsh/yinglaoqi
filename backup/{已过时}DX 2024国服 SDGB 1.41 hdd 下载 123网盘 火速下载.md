@@ -85,64 +85,7 @@ https://www.94joy.cn/maimai/267/
 任何使用风险请自行承担，建议支持正版游戏。希望通过技术共享减少信息不对称，让游戏回归纯粹乐趣。
 
 
-
-
-
-
-
-### 自己写的教程(非常不建议观看 除非你按照deepseek的步骤出错了)
- 就下载最大的那个就行了 其他俩文件似乎没啥用(如果123限制下载额度用这个油猴插件绕开https://greasyfork.org/zh-CN/scripts/520017-%E6%94%B9-123-%E4%BA%91%E7%9B%98%E4%BC%9A%E5%91%98%E9%9D%92%E6%98%A5%E7%89%88 )
-下载完最大的文件 解压在D盘 没问题的 不是病毒 版本号CN1.41-I 不是K(ABCDEFFGHIJK所以我发的大概是2月的版本) 注意点 因为我被倒卖哥坑了 异常痛恨那些倒卖资源和教程的 所以才半夜扣字分享出来
-
-内置segatools 应该可以直接启动吧？ 不行的话自己解决 我也不知道、
-可以参考一下这里面的教程？虽然我不推荐就是了 太老了这教程 https://www.94joy.cn/maimai/267/
-难点:1.卧槽 我打开游戏就两串代码也没悬浮窗咋回事
-         可能你的文件不在C/D盘 这是必须的 而且启动程序是:\Ver.CN1.41-H\Ver.CN1.41-D\Package\start.exe 不是外面那个game.exe!!!
-难点2:如果你进入游戏的时候 显示net坏 那么就是没有绿网 
- 如下路径C:\Windows\System32\drivers\etc
-找到 hosts文件 记事本打开 把里面东西全删了 改成下面这些
-127.0.0.1 id.twitch.tv #S302
-129.28.248.89 wq.sys-all.cn
-81.71.193.236 ai.sys-all.cn
-42.193.74.107 wi.sys-all.cn
-81.70.119.195 at.sys-all.cn
-然后保存 再打开你的start.bat
-难点 3：我用game.bat没反应 start.bat 打不开怎么办？
-可能有这些原因  你的windows10时区不是中国 你没有以管理员运行start.bat 你的包被偷工减料了
-网络问题无解 版本更新 slim.ver 缺失........反正你按照我这个顺序逐一排查就对了
-难点4.扫码登录 我没有摄像头怎么登录啊   
-1.打开微信舞萌dx公众号 2.获得玩家二维码 3.在那个界面长按二维码并且扫描 4.获得字符串
-5.复制获得的字符串到你已经打开并且在扫描二维码页面的舞萌2024dx  6.看到悬浮窗Dummylogin 那里 在第一个大框Token下面填写你复制的字符串 然后点击Token Login 就会发现登录了 7.玩游戏 
-方案2：上机玩一把之后 上传成绩 然后去你的 userdataout文件夹（自己找找在哪里）获得userId
-以后就可以用这个UserID直接在刚刚那个悬浮窗下面登录 但是前提是30min前刷新过二维码(不然会关你15分钟小黑屋）
-> [!TIP]
-> 注意 如果你出现了红色提示 由于版本不同，现在数据继承至最新版本 数据继承完成后 将无法在之前的版本游戏 那么最好就别玩了 不然容易ban号 或者你实在要玩 就小心一点 如果玩着玩着自己结算成绩了就直接关闭程序
-
-
-难点5.
-如何修改自定义?作弊？
-找到SlimModConfig.ini和SinModSetting.txt和README.md 里面有详细的使用键位
-> [!IMPORTANT]
-> 千万不要动Chara9999Level=0 不然服务器直接封号
-
-难点6.更新你的版本
-我在结尾写了 自己看
- 
-难点7. 2025.6.11甚至更早 这个方法就会失效
-因为游戏版本更新了啊 旧版本不肯定就失效了啊喂！！！
-
- 难点8. 硬币用完了如何投币？
-再游戏加载的时候 也就是Net认证和游戏加载的时候 疯狂按大键盘上的数字8+数字9 就能听到投币音效
-> [!WARNING]
-> 尽量拿自己小号玩 顺便装装杯 不然容易消失游戏体验感
-
-难点7.为什么版本号是原神？？
-因为开启了自定义版本号功能 在配置文档里面 把自定义版本号改成关就行了(turn改成false 1改成0)
-
-    
-
-
-2025/5/4修正   123链接中的那俩个小的文件夹是更新包 把他们放到Ver.CN1.41-H\Ver.CN1.41-D\Package\Sinmai_Data\StreamingAssets里面 就可以把你的版本号从I变成K 这样子你玩就不会出现数据变迁提示了！！！
+2025/5/4修正   123链接中的那俩个小的文件夹是更新包 把他们放到Ver.CN1.41-H\Ver.CN1.41-D\Package\Sinmai_Data\StreamingAssets里面 就可以把你的版本号从I变成K 这样子你玩就不会出现数据变迁提示了
 
 
 
@@ -152,5 +95,5 @@ https://www.94joy.cn/maimai/267/
 
 
 I'm not responsible for sharing any programs, I just want to go against those who resell them. First, I spent over 20 yuan on this package myself 
- It just won't work. The Goofish seller took 10 hours to tell me to pay another 15 before fucking teaching me how to do it. In the end, one person took on all the  They easily obtain resources, but reselling is aggressively fucking profitable. Who cares about copyright or not? Now it's only one month left and it's expired. I have to show everyone how bad this low-quality reselling is, and to raise their understanding of technology, so that their hard-earned game won't be mocked by someone on Xianyu who scammed them for a few yuan to buy data. That's all.
+ It just won't work. The Goofish seller took fucking  10 hours to tell me to pay another 15 before fucking teaching me how to do it. In the end, one person took on all the  They easily obtain resources, but reselling is aggressively fucking profitable. Who cares about copyright or not? Now it's only one month left and it's expired. I have to show everyone how bad this low-quality reselling is, and to raise their understanding of technology, so that their hard-earned game won't be mocked by someone on Xianyu who scammed them for a few yuan to buy data. That's all.
 
